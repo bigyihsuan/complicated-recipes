@@ -1,0 +1,8 @@
+{
+	"name":"complicated-recipes",
+	"author":"bigyihsuan",
+	"version":"1.0.0",
+	"title":"Complicated Recipes",
+	"description":"Makes recipes more complicated and difficult to compared to vanilla, but less insane than Bob's Mods.",
+	"dependencies": ["base"]
+}
