@@ -26,5 +26,5 @@ data:extend({
 	ingredients = {{'raw-wood', 1}},
 	result = 'yellow-dye',
 	result-count = 10
-},
+}
 })
