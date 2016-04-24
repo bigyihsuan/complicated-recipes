@@ -26,5 +26,12 @@ data:extend({
 	icon = '__complicated-recipes__/graphics/intermediates/dye-yellow.png',
 	subgroup = 'raw-material',
 	stack_size = 100
+},
+{
+	tpye = 'item',
+	name = 'purple-dye',
+	icon = '__complicated-recipes__/graphics/intermediates/dye-purple.png',
+	subgroup = 'raw-material',
+	stack_size = 100
 }
 })

@@ -35,7 +35,9 @@ data:extend({
 	subgroup = 'intermediate-product',
 	stack_size = 50
 },
+
 --Platform
+
 {
 	type = 'item',
 	name = 'burner-inserter-platform',
