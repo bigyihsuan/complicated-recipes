@@ -19,5 +19,19 @@ data:extend({
 	icon = '__complicated-recipes__/graphics/weapons/blank-capsule.png',
 	subgroup = 'intermediate-product',
 	stack_size = 50
+},
+{
+	type = 'item',
+	name = 'bullet',
+	icon = '__complicated-recipes__/graphics/weapons/bullet.png',
+	subgroup = 'intermediate-product',
+	stack_size = 50
+},
+{
+	type = 'item',
+	name = 'piercing-bullet',
+	icon = '__complicated-recipes__/graphics/weapons/piercing-bullet.png',
+	subgroup = 'intermediate-product',
+	stack_size = 50
 }
 })
