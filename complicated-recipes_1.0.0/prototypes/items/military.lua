@@ -33,5 +33,12 @@ data:extend({
 	icon = '__complicated-recipes__/graphics/weapons/piercing-bullet.png',
 	subgroup = 'intermediate-product',
 	stack_size = 50
+},
+{
+	type = 'item',
+	name = 'gunpowder',
+	icon = '__complicated-recipes__/graphics/weapons/gunpowder.png',
+	subgroup = 'intermediate-product',
+	stack_size = 100
 }
 })

@@ -29,7 +29,7 @@ data:extend({
         {'basic-inserter-arm', 1},
         {'red-dye', 1}
     },
-    enabled = false, --needs research
+    enabled = false, --automation
     result = 'long-armed-inserter-arm'
 },
 {
@@ -41,7 +41,7 @@ data:extend({
         {'basic-inserter-arm', 1},
         {'blue-dye', 1}
     },
-    enabled = false,
+    enabled = false, --logistics
     result = 'fast-inserter-arm'
 },
 {
@@ -53,7 +53,7 @@ data:extend({
         {'fast-inserter-arm', 1},
         {'green-dye', 1}
     },
-    enabled = false,
+    enabled = false, --electronics
     result = 'smart-inserter-arm'
 },
 
@@ -85,7 +85,7 @@ data:extend({
         {'basic-inserter-platform', 1},
         {'red-dye', 1}
     },
-    enabled = false, --needs research
+    enabled = false, --automation
     result = 'long-armed-inserter-platform'
 },
 {
@@ -96,7 +96,7 @@ data:extend({
         {'basic-inserter-platform', 1},
         {'blue-dye', 1}
     },
-    enabled = false,
+    enabled = false, --logistics
     result = 'fast-inserter-platform'
 },
 {
@@ -107,7 +107,29 @@ data:extend({
         {'fast-inserter-platform', 1},
         {'green-dye', 1}
     },
-    enabled = false,
+    enabled = false, --electronics
     result = 'smart-inserter-platform'
 }
 })
+
+--Changes
+data.raw.recipe['burner-inserter'].ingredients = {
+	{'burner-inserter-arm', 1},
+	{'burner-inserter-platform', 1}
+}
+data.raw.recipe['basic-inserter'].ingredients = {
+	{'basic-inserter-arm', 1},
+	{'basic-inserter-platform', 1}
+}
+data.raw.recipe['long-handed-inserter'].ingredients = {
+	{'long-armed-inserter-arm', 1},
+	{'long-armed-inserter-platform', 1}
+}
+data.raw.recipe['fast-inserter'].ingredients = {
+	{'fast-inserter-arm', 1},
+	{'fast-inserter-platform', 1}
+}
+data.raw.recipe['smart-inserter'].ingredients = {
+	{'smart-inserter-arm', 1},
+	{'smart-inserter-platform', 1}
+}
