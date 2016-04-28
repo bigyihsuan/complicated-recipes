@@ -37,11 +37,11 @@ data.extend({
 --Changes
 data.raw.recipe['assembly-machine-1'].ingredients = {
     {'assembly-machine-1-frame', 1},
-    {'iron-gear', 5}
+    {'iron-gear-wheel', 5}
 }
 data.raw.recipe['assembly-machine-2'].ingredients = {
     {'assembly-machine-2-frame', 1},
-    {'iron-gear', 5}
+    {'iron-gear-wheel', 5}
 }
 data.raw.recipe['assembly-machine-3'].ingredients = {
     {'assembly-machine-3-frame', 1},

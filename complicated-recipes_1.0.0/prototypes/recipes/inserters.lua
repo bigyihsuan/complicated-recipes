@@ -5,7 +5,7 @@ data:extend({
     name = 'burner-inserter-arm',
     ingredients = {
         {'iron-plate', 1},
-        {'iron-gear', 1}
+        {'iron-gear-wheel', 1}
     },
     result = 'burner-inserter-arm'
 },
@@ -14,7 +14,7 @@ data:extend({
     name = 'basic-inserter-arm',
     ingredients = {
         {'iron-plate', 1},
-        {'iron-gear', 1},
+        {'iron-gear-wheel', 1},
         {'burner-inserter-arm', 1},
         {'yellow-dye', 1}
     },
@@ -25,7 +25,7 @@ data:extend({
     name = 'long-armed-inserter-arm',
     ingredients = {
         {'iron-plate', 1},
-        {'iron-gear', 1}
+        {'iron-gear-wheel', 1}
         {'basic-inserter-arm', 1},
         {'red-dye', 1}
     },
@@ -37,7 +37,7 @@ data:extend({
     name = 'fast-inserter-arm',
     ingredients = {
         {'iron-plate', 1},
-        {'iron-gear', 1},
+        {'iron-gear-wheel', 1},
         {'basic-inserter-arm', 1},
         {'blue-dye', 1}
     },
@@ -49,7 +49,7 @@ data:extend({
     name = 'smart-inserter-arm',
     ingredients = {
         {'iron-plate', 1},
-        {'iron-gear', 1},
+        {'iron-gear-wheel', 1},
         {'fast-inserter-arm', 1},
         {'green-dye', 1}
     },
@@ -63,7 +63,7 @@ data:extend({
     name = 'burner-inserter-platform',
     ingredients = {
         {'iron-plate', 1},
-        {'iron-gear', 1}
+        {'iron-gear-wheel', 1}
     },
     result = 'burner-inserter-platform'
 },
