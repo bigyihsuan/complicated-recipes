@@ -1,6 +1,7 @@
 data:extend({
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'belt-mechanism',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/belt-mechanism.png',
 	subgroup = 'belts',
@@ -10,6 +11,7 @@ data:extend({
 --belt
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'basic-belt-surface',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/belt-surface-0.png',
 	subgroup = 'belts',
@@ -18,6 +20,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'fast-belt-surface',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/belt-surface-1.png',
 	subgroup = 'belts',
@@ -26,6 +29,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'express-belt-surface',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/belt-surface-2.png',
 	subgroup = 'belts',
@@ -35,6 +39,7 @@ data:extend({
 --underground
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'basic-transport-belt-to-ground-hood',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-0', --icon directory
 	subgroup = 'belts',
@@ -43,6 +48,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'fast-transport-belt-to-ground-hood',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-1', --icon directory
 	subgroup = 'belts',
@@ -51,6 +57,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'express-transport-belt-to-ground-hood',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-2', --icon directory
 	subgroup = 'belts',
@@ -60,6 +67,7 @@ data:extend({
 --splitter
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'basic-splitter-mechanism',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-0'
 	subgroup = 'belts',
@@ -68,6 +76,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'fast-splitter-mechanism',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-1',
 	subgroup = 'belts',
@@ -76,6 +85,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'express-splitter-mechanism',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-2',
 	subgroup = 'belts',
