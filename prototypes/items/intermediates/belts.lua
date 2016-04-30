@@ -69,7 +69,7 @@ data:extend({
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
 	name = 'basic-splitter-mechanism',
-	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-0'
+	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-0',
 	subgroup = 'belts',
 	inventory_order = 'c[splitter]-a[splitter-mechanism-0]',
 	stack_size = 50

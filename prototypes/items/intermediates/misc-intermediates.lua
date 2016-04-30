@@ -23,7 +23,7 @@ data:extend({
 	name = 'compressed-solid-fuel',
 	icon = '__complicated-recipes__/graphics/intermediates/compressed-solid-fuel.png',
 	subgroup = 'raw-resource',
-	order = 'c[compressed-solid-fuel]' --vanilla tabs
+	order = 'c[compressed-solid-fuel]', --vanilla tabs
 	fuel_value = '250MJ',
 	stack_size = 50
 }

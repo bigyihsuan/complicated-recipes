@@ -1,4 +1,4 @@
-data.extend({
+data:extend({
 {
 	type = 'recipe',
 	name = 'assembly-machine-1-frame',
@@ -6,7 +6,7 @@ data.extend({
     	{'iron-plate', 5},
     	{'electronic-circuit', 3}
 	},
-	result = 'assembly-machine-1-frame'
+	result = 'assembly-machine-1-frame',
 	enabled = false --automation
 },
 {

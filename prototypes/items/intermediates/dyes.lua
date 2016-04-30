@@ -36,7 +36,7 @@ data:extend({
 	stack_size = 100
 },
 {
-	tpye = 'item',
+	type = 'item',
 	name = 'purple-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-purple.png',
 	subgroup = 'dye',

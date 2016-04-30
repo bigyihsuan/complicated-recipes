@@ -32,7 +32,7 @@ data:extend({
 	name = 'processing-circuit-board',
 	icon = '__conplicated-recipes__/graphics/intermediates/circuits/circuit-board-3.png',
 	subgroup = 'circuits',
-	inventory_order = 'd[board-3],'
+	inventory_order = 'd[board-3]',
 	stack_size = 100
 }
 })
