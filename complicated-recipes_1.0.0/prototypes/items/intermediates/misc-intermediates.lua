@@ -1,6 +1,7 @@
 data:extend({
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'iron-gear-peg',
 	icon = '__complicated-recipes__/graphics/intermediates/iron-gear-peg.png',
 	subgroup = 'intermediates',
@@ -9,6 +10,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'iron-gear-rim',
 	icon = '__complicated-recipes__/graphics/intermediates/iron-gear-rim.png',
 	subgroup = 'intermediates',
@@ -17,6 +19,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'compressed-solid-fuel',
 	icon = '__complicated-recipes__/graphics/intermediates/compressed-solid-fuel.png',
 	subgroup = 'raw-resource',
