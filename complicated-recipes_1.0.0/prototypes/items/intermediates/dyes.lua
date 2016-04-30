@@ -1,6 +1,7 @@
 data:extend({
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'red-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-red.png',
 	subgroup = 'dye',
@@ -9,6 +10,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'blue-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-blue.png',
 	subgroup = 'dye',
@@ -17,6 +19,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'yellow-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-yellow.png',
 	subgroup = 'dye',
@@ -25,6 +28,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'green-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-green.png',
 	subgroup = 'dye',
