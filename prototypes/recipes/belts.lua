@@ -34,7 +34,7 @@ data:extend({
 	name = 'express-belt-surface',
 	ingredients = {
 		{'iron-plate', 1},
-		{'fast-belt-surface', 1}
+		{'fast-belt-surface', 1},
 		{'blue-dye', 1}
 	},
 	result = 'express-belt-surface',
@@ -75,7 +75,7 @@ data:extend({
 	result = 'express-transport-belt-to-ground-hood',
 	result_count = 2,
 	enabled = false --logistics 3
-}
+},
 --splitters
 {
 	type = 'recipe',
@@ -110,8 +110,8 @@ data:extend({
 		{'blue-dye', 1},
 		{'iron-gear-wheel', 10},
 		{'advanced-circuit', 10},
-		{'fast-splitter-mechanism', 1}
-		{type = 'fluid', name = 'lubricant', count = 8}
+		{'fast-splitter-mechanism', 1},
+		{type = 'fluid', name = 'lubricant', amount = 8}
 	},
 	result = 'express-splitter-mechanism',
 	result_count = 1,
@@ -135,7 +135,7 @@ data.raw.recipe['express-transport-belt'].ingredients = {
 	{'express-belt-surface', 1},
 	{'belt-mechanism', 1},
 	{'iron-gear-wheel', 5},
-	{type = 'fluid', name = 'lubricant', count = 2}
+	{type = 'fluid', name = 'lubricant', amount = 2}
 }
 --Underground
 data.raw.recipe['basic-transport-belt-to-ground'].ingredients = {
@@ -143,20 +143,20 @@ data.raw.recipe['basic-transport-belt-to-ground'].ingredients = {
 	{'basic-transport-belt', 5},
 	{'basic-belt-surface', 2}
 }
-data.raw.recipe.['fast-transport-belt-to-ground'].ingredients ={
+data.raw.recipe	['fast-transport-belt-to-ground'].ingredients = {
 	{'fast-transport-belt-to-ground-hood', 2},
 	{'fast-transport-belt', 5},
 	{'fast-belt-surface', 2}
 }
 data.raw.recipe['express-transport-belt-to-ground'].category = 'crafting-with-fluid'
-data.raw.recipe.['express-transport-belt-to-ground'].ingredients ={
+data.raw.recipe['express-transport-belt-to-ground'].ingredients = {
 	{'express-transport-belt-to-ground-hood', 2},
 	{'express-transport-belt', 5},
 	{'express-belt-surface', 2},
-	{type = 'fluid', name = 'lubricant', count = 8}
+	{type = 'fluid', name = 'lubricant', amount = 8}
 }
 --splitter
-data.raw.recipe['splitter'].ingredients = {
+data.raw.recipe['basic-splitter'].ingredients = {
 	{'basic-belt-surface', 4},
 	{'basic-splitter-mechanism', 1}
 }
