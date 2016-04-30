@@ -1,1 +1,1 @@
-data.raw.technology[]
+data.raw.technology = {}

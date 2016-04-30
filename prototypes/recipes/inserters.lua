@@ -1,7 +1,7 @@
 data:extend({
 --Arms
 {
-    type = 'recipe'
+    type = 'recipe',
     name = 'burner-inserter-arm',
     ingredients = {
         {'iron-plate', 1},
@@ -25,7 +25,7 @@ data:extend({
     name = 'long-armed-inserter-arm',
     ingredients = {
         {'iron-plate', 1},
-        {'iron-gear-wheel', 1}
+        {'iron-gear-wheel', 1},
         {'basic-inserter-arm', 1},
         {'red-dye', 1}
     },
@@ -59,7 +59,7 @@ data:extend({
 
 --Platforms
 {
-    type = 'recipe'
+    type = 'recipe',
     name = 'burner-inserter-platform',
     ingredients = {
         {'iron-plate', 1},

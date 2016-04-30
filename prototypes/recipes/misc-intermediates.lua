@@ -27,6 +27,6 @@ data.raw.recipe['iron-gear-wheel'].ingredients = {
 	{'iron-gear-peg', 8},
 	{'iron-gear-rim', 1}
 }
-data.raw.recipe.['rocket-fuel'].ingredients = {
+data.raw.recipe['rocket-fuel'].ingredients = {
 	{'compressed-solid-fuel', 10}
 }

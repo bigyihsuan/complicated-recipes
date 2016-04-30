@@ -35,15 +35,15 @@ data:extend({
 }
 })
 --Changes
-data.raw.recipe['assembly-machine-1'].ingredients = {
+data.raw.recipe['assembling-machine-1'].ingredients = {
     {'assembly-machine-1-frame', 1},
     {'iron-gear-wheel', 5}
 }
-data.raw.recipe['assembly-machine-2'].ingredients = {
+data.raw.recipe['assembling-machine-2'].ingredients = {
     {'assembly-machine-2-frame', 1},
     {'iron-gear-wheel', 5}
 }
-data.raw.recipe['assembly-machine-3'].ingredients = {
+data.raw.recipe['assembling-machine-3'].ingredients = {
     {'assembly-machine-3-frame', 1},
     {'speed-module-1', 4}
 }
