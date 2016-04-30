@@ -1,6 +1,7 @@
 data:extend({
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'assembly-machine-1-frame',
 	icon = '__complicated-recipes__/graphics/assemblers/assembly-machine-1-frame.png',
 	flags= { "goes-to-main-inventory" },
@@ -10,6 +11,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'assembly-machine-2-frame',
 	icon = '__complicated-recipes__/graphics/assemblers/assembly-machine-2-frame.png',
 	subgroup = 'assemblers',
@@ -18,6 +20,7 @@ data:extend({
 },
 {
 	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'assembly-machine-3-frame',
 	icon = '__complicated-recipes__/graphics/assemblers/assembly-machine-3-frame.png',
 	subgroup = 'assemblers',
@@ -26,6 +29,7 @@ data:extend({
 } --[[,
 {
 type = 'item',
+	flags= { "goes-to-main-inventory" },
 name = 'assembly-arm',
 icon = '__complicated-recipes__/graphics/assemblers/assembly-arm.png',
 subgroup = 'assemblers',
