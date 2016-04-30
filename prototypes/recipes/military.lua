@@ -14,11 +14,11 @@ data:extend({
 	name = 'piercing-bullet',
 	ingredients = {
 		{'bullet', 10},
-		{'steel-plate', 1}
+		{'steel-plate', 1},
 		{'copper-plate', 5}
 	},
 	result = 'piercing-bullet',
-	result_count = 10
+	result_count = 10,
 	enabled = false --military-2
 },
 {
@@ -34,7 +34,7 @@ data:extend({
 	type = 'recipe',
 	name = 'blank-shotgun-shell',
 	ingredients = {
-		{'iron-plate', 1}
+		{'iron-plate', 1},
 		{'copper-plate', 1}
 	},
 	result = 'blank-shotgun-shell',
