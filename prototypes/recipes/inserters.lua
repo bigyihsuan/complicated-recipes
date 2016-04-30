@@ -71,7 +71,7 @@ data:extend({
     type = 'recipe',
     name = 'basic-inserter-platform',
     ingredients = {
-        {'electronic-cicuit', 1},
+        {'electronic-circuit', 1},
         {'burner-inserter-platform', 1},
         {'yellow-dye', 1}
     },
@@ -81,7 +81,7 @@ data:extend({
     type = 'recipe',
     name = 'long-armed-inserter-platform',
     ingredients = {
-        {'electronic-cicuit', 1},
+        {'electronic-circuit', 1},
         {'basic-inserter-platform', 1},
         {'red-dye', 1}
     },
@@ -92,7 +92,7 @@ data:extend({
     type = 'recipe',
     name = 'fast-inserter-platform',
     ingredients = {
-        {'electronic-cicuit', 2},
+        {'electronic-circuit', 2},
         {'basic-inserter-platform', 1},
         {'blue-dye', 1}
     },
@@ -103,7 +103,7 @@ data:extend({
     type = 'recipe',
     name = 'smart-inserter-platform',
     ingredients = {
-        {'electronic-cicuit', 4},
+        {'electronic-circuit', 4},
         {'fast-inserter-platform', 1},
         {'green-dye', 1}
     },

@@ -41,7 +41,7 @@ data:extend({
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
 	name = 'basic-transport-belt-to-ground-hood',
-	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-0', --icon directory
+	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-0.png', --icon directory
 	subgroup = 'belts',
 	inventory_order = 'b[hood]-a[hood-0]',
 	stack_size = 50
@@ -50,7 +50,7 @@ data:extend({
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
 	name = 'fast-transport-belt-to-ground-hood',
-	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-1', --icon directory
+	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-1.png', --icon directory
 	subgroup = 'belts',
 	inventory_order = 'b[hood]-a[hood-1]',
 	stack_size = 50
@@ -59,7 +59,7 @@ data:extend({
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
 	name = 'express-transport-belt-to-ground-hood',
-	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-2', --icon directory
+	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-2.png', --icon directory
 	subgroup = 'belts',
 	inventory_order = 'b[hood]-a[hood-2]',
 	stack_size = 50
@@ -69,7 +69,7 @@ data:extend({
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
 	name = 'basic-splitter-mechanism',
-	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-0',
+	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-0.png',
 	subgroup = 'belts',
 	inventory_order = 'c[splitter]-a[splitter-mechanism-0]',
 	stack_size = 50
@@ -78,7 +78,7 @@ data:extend({
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
 	name = 'fast-splitter-mechanism',
-	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-1',
+	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-1.png',
 	subgroup = 'belts',
 	inventory_order = 'c[splitter]-b[splitter-mechanism-1]',
 	stack_size = 50
@@ -87,7 +87,7 @@ data:extend({
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
 	name = 'express-splitter-mechanism',
-	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-2',
+	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-2.png',
 	subgroup = 'belts',
 	inventory_order = 'c[splitter]-c[splitter-mechanism-2]',
 	stack_size = 50

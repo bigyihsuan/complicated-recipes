@@ -20,7 +20,7 @@ data:extend({
 },
 {
 	type = 'item-subgroup',
-	name = 'circuts',
+	name = 'circuits',
 	group = 'complicated-recipes',
 	order = 'c',
 },
