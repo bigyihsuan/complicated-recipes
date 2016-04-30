@@ -23,19 +23,11 @@ data:extend({
 	name = 'compressed-solid-fuel',
 	icon = '__complicated-recipes__/graphics/intermediates/compressed-solid-fuel.png',
 	subgroup = 'raw-resource',
-<<<<<<< HEAD
-<<<<<<< HEAD:complicated-recipes_1.0.0/prototypes/items/intermediates/misc-intermediates.lua
-	order = 'c[compressed-solid-fuel]' --vanilla tabs
-=======
-	order = 'c[compressed-solid-fuel]', --vanilla tabs
->>>>>>> refs/remotes/origin/pr/1:prototypes/items/intermediates/misc-intermediates.lua
-=======
 <<<<<<< HEAD:prototypes/items/intermediates/misc-intermediates.lua
 	order = 'c[compressed-solid-fuel]', --vanilla tabs
 =======
 	order = 'c[compressed-solid-fuel]' --vanilla tabs
 >>>>>>> refs/remotes/origin/master:complicated-recipes_1.0.0/prototypes/items/intermediates/misc-intermediates.lua
->>>>>>> refs/remotes/origin/pr/1
 	fuel_value = '250MJ',
 	stack_size = 50
 }
