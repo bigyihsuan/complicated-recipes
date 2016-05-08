@@ -4,8 +4,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'iron-gear-peg',
 	icon = '__complicated-recipes__/graphics/intermediates/iron-gear-peg.png',
-	subgroup = 'intermediates',
-	inventory_order = 'a[gear-0]',
+	subgroup = 'CR-intermediates',
+	inventory_order = 'a-a',
 	stack_size = 50
 },
 {
@@ -13,8 +13,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'iron-gear-rim',
 	icon = '__complicated-recipes__/graphics/intermediates/iron-gear-rim.png',
-	subgroup = 'intermediates',
-	inventory_order = 'a[gear-1]',
+	subgroup = 'CR-intermediates',
+	inventory_order = 'a-b',
 	stack_size = 50
 },
 {
