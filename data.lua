@@ -16,4 +16,5 @@ require('prototypes.recipes.misc-intermediates')
 
 require('prototypes.item-groups')
 
+require('utility.utility')
 require('prototypes.technology')
