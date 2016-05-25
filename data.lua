@@ -18,4 +18,5 @@ require('prototypes.recipes.modules')
 
 require('prototypes.item-groups')
 
+require('utility.utility')
 require('prototypes.technology')
