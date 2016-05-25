@@ -28,3 +28,10 @@ table.insert(data.raw['technology']['military-2'].effects, {type = 'unlock-recip
 table.insert(data.raw['technology']['military-3'].effects, {type = 'unlock-recipe', name = 'blank-capsule'})
 
 table.insert(data.raw['technology']['oil-processing'].effects, {type = 'unlock-recipe', name = 'compressed-solid-fuel'})
+
+table.insert(data.raw['technology']['speed-module'].effects, {type = 'unlock-recipe', name = 'speed-augment'})
+table.insert(data.raw['technology']['speed-module'].effects, {type = 'unlock-recipe', name = 'speed-module-casing'})
+table.insert(data.raw['technology']['productivity-module'].effects, {type = 'unlock-recipe', name = 'productivity-augment'})
+table.insert(data.raw['technology']['productivity-module'].effects, {type = 'unlock-recipe', name = 'productivity-module-casing'})
+table.insert(data.raw['technology']['effectivity-module'].effects, {type = 'unlock-recipe', name = 'effectivity-augment'})
+table.insert(data.raw['technology']['effectivity-module'].effects, {type = 'unlock-recipe', name = 'effectivity-module-casing'})

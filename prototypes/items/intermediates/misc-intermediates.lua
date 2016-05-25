@@ -26,5 +26,14 @@ data:extend({
 	order = 'c[compressed-solid-fuel]', --vanilla tabs
 	fuel_value = '250MJ',
 	stack_size = 50
+},
+{
+	type = 'item',
+	name = 'pipe-plate',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/intermediates/fluids/pipe-plate.png', --icon directory
+	subgroup = 'CR-intermediates',
+	inventory_order = 'a-c',
+	stack_size = 100
 }
 })

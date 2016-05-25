@@ -5,6 +5,7 @@ require('prototypes.items.intermediates.dyes')
 require('prototypes.items.intermediates.inserters')
 require('prototypes.items.intermediates.misc-intermediates')
 require('prototypes.items.military')
+require('prototypes.items.intermediates.modules')
 
 require('prototypes.recipes.assemblers')
 require('prototypes.recipes.belts')
@@ -13,6 +14,7 @@ require('prototypes.recipes.dyes')
 require('prototypes.recipes.inserters')
 require('prototypes.recipes.military')
 require('prototypes.recipes.misc-intermediates')
+require('prototypes.recipes.modules')
 
 require('prototypes.item-groups')
 

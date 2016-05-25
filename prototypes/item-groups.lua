@@ -50,7 +50,13 @@ data:extend({
 {
 	type = 'item-subgroup',
 	name = 'intermediates',
-	group = 'complicated-recipes',
-	order = 'b',
+	group = 'CR-intermediates',
+	order = 'z',
+},
+{
+	type = 'item-subgroup',
+	name = 'modules',
+	group = 'CR-intermediates',
+	order = 'c'
 }
 })
