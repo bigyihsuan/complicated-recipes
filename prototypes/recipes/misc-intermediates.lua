@@ -28,7 +28,52 @@ data:extend({
 	},
 	result = 'pipe-plate',
 	result_count = 10,
-	enabled = true --tech name here
+	enabled = true
+},
+{
+	type = 'recipe',
+	name = 'high-carbon-iron-plate',
+	ingredients = {
+		{'iron-plate', 2},
+		{'coal', 1}
+	},
+	result = 'high-carbon-iron-plate',
+	result_count = 1,
+	enabled = false --steel processing
+},
+{
+	type = 'recipe',
+	name = 'raw-steel',
+	ingredients = {
+		{'high-carbon-iron-plate', 5}
+	},
+	category = 'smelting',
+	energy_required = 17.5,
+	result = 'raw-steel',
+	result_count = 1,
+	enabled = false --steel processing
+},
+{
+	type = 'recipe',
+	name = 'crushed-stone',
+	ingredients = {
+		{'stone', 1}
+	},
+	result = 'crushed-stone',
+	result_count = 5,
+	enabled = false --optics
+},
+{
+	type = 'recipe',
+	name = 'glass',
+	ingredients = {
+		{'crushed-stone', 5}
+	},
+	category = 'smelting',
+	energy_required = 2,
+	result = 'glass',
+	result_count = 1,
+	enabled = false --optics
 }
 })
 
@@ -51,4 +96,13 @@ data.raw.recipe['storage-tank'].ingredients = {
 	{'pipe', 4},
 	{'pipe-plate', 100},
 	{'steel-plate', 5}
+}
+data.raw.recipe['steel-plate'].ingredients = {
+	{'raw-steel', 2}
+}
+data.raw.recipe['steel-plate'].category = 'crafting'
+data.raw.recipe['small-lamp'].ingredients = {
+	{'iron-stick', 3},
+	{'electronic-circuit', 1}
+	{'glass', 5}
 }

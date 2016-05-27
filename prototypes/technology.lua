@@ -28,6 +28,10 @@ recipes = {
 	['productivity-module'] = 'productivity-module-casing',
 	['effectivity-module'] = 'effectivity-augment',
 	['effectivity-module'] = 'effectivity-module-casing',
+	['optics'] = 'glass',
+	['optics'] = 'crushed-stone'
+	['steel-processing'] = 'high-carbon-iron-plate',
+	['steel-processing'] = 'raw-steel'
 }
 --['tech-name'] = 'recipe-name'
 addTechnologyRecipes(recipes)
