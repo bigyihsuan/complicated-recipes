@@ -42,6 +42,13 @@ data:extend({
 	inventory_order = 'ze'
 },
 {
+	type = 'item-group',
+	name = 'CR-rocket-parts'.
+	icon = '__base__/graphics/icons/rocket-part.png',
+	order = 'zf',
+	inventory_order = 'zf',
+},
+{
 	type = 'item-subgroup',
 	name = 'assemblers',
 	group = 'CR-intermediates',
@@ -51,7 +58,7 @@ data:extend({
 	type = 'item-subgroup',
 	name = 'intermediates',
 	group = 'CR-intermediates',
-	order = 'z',
+	order = 'b',
 },
 {
 	type = 'item-subgroup',

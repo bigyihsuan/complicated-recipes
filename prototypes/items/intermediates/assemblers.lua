@@ -4,7 +4,6 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'assembling-machine-1-frame',
 	icon = '__complicated-recipes__/graphics/assemblers/assembling-machine-1-frame.png',
-	flags= { "goes-to-main-inventory" },
 	subgroup = 'CR-intermediates',
 	inventory_order = 'a[assemblers]-a[assembling-machine-1]',
 	stack_size = 50
@@ -28,13 +27,13 @@ data:extend({
 	stack_size = 50
 } --[[,
 {
-type = 'item',
+	type = 'item',
 	flags= { "goes-to-main-inventory" },
-name = 'assembling-arm',
-icon = '__complicated-recipes__/graphics/assemblers/assembling-arm.png',
-subgroup = 'assemblers',
-inventory_order = 'a[assemblers]-c[assembling-arm]',
-stack_size = 50
+	name = 'assembling-arm',
+	icon = '__complicated-recipes__/graphics/assemblers/assembling-arm.png',
+	subgroup = 'assemblers',
+	inventory_order = 'a[assemblers]-c[assembling-arm]',
+	stack_size = 50
 }
 ]]
 })

@@ -29,6 +29,24 @@ data:extend({
 {
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
+	name = 'black-dye',
+	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-black.png',
+	subgroup = 'CR-dyes',
+	inventory_order = 'a[primary]-d',
+	stack_size = 100
+},
+{
+	type = 'item',
+	flags= { "goes-to-main-inventory" },
+	name = 'white-dye',
+	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-white.png',
+	subgroup = 'CR-dyes',
+	inventory_order = 'a[primary]-e',
+	stack_size = 100
+},
+{
+	type = 'item',
+	flags= { "goes-to-main-inventory" },
 	name = 'green-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-green.png',
 	subgroup = 'CR-dyes',

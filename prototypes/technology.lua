@@ -31,7 +31,11 @@ recipes = {
 	['optics'] = 'glass',
 	['optics'] = 'crushed-stone'
 	['steel-processing'] = 'high-carbon-iron-plate',
-	['steel-processing'] = 'raw-steel'
+	['steel-processing'] = 'raw-steel',
+	['rocket-silo'] = 'rocket-control-unit-CPU',
+	['rocket-silo'] = 'rocket-control-unit-case',
+	['rocket-silo'] = 'satellite-frame',
+	['rocket-silo'] = 'low-density-structure-frame' 
 }
 --['tech-name'] = 'recipe-name'
 addTechnologyRecipes(recipes)

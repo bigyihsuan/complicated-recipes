@@ -6,6 +6,7 @@ require('prototypes.items.intermediates.inserters')
 require('prototypes.items.intermediates.misc-intermediates')
 require('prototypes.items.military')
 require('prototypes.items.intermediates.modules')
+require('prototypes.intermediates.rocket-parts')
 
 require('prototypes.recipes.assemblers')
 require('prototypes.recipes.belts')
@@ -15,6 +16,7 @@ require('prototypes.recipes.inserters')
 require('prototypes.recipes.military')
 require('prototypes.recipes.misc-intermediates')
 require('prototypes.recipes.modules')
+require('prototypes.recipes.rocket-parts')
 
 require('prototypes.item-groups')
 
