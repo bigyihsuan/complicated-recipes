@@ -64,12 +64,12 @@ data:extend({
 })
 
 --Changes
-data.raw.recipe['basic-bullet-magazine'].ingredients = {
+data.raw.recipe['firearm-magazine'].ingredients = {
 	{'bullet', 10},
 	{'blank-magazine', 1},
 	{'yellow-dye', 1}
 }
-data.raw.recipe['piercing-bullet-magazine'].ingredients = {
+data.raw.recipe['piercing-rounds-magazine'].ingredients = {
 	{'piercing-bullet', 10},
 	{'blank-magazine', 1},
 	{'red-dye', 1}

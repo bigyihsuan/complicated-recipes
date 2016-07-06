@@ -11,19 +11,19 @@ data:extend({
 },
 {
 	type = 'recipe',
-	name = 'basic-belt-surface',
+	name = 'belt-surface',
 	ingredients = {
 		{'iron-plate', 1},
 		{'yellow-dye', 1}
 	},
-	result = 'basic-belt-surface'
+	result = 'belt-surface'
 },
 {
 	type = 'recipe',
 	name = 'fast-belt-surface',
 	ingredients = {
 		{'iron-plate', 1},
-		{'basic-belt-surface', 1},
+		{'belt-surface', 1},
 		{'red-dye', 1}
 	},
 	result = 'fast-belt-surface',
@@ -43,49 +43,49 @@ data:extend({
 --underground
 {
 	type = 'recipe',
-	name = 'basic-transport-belt-to-ground-hood',
+	name = 'underground-belt-hood',
 	ingredients = {
 		{'iron-plate', 10},
 		{'yellow-dye', 2}
 	},
-	result = 'basic-transport-belt-to-ground-hood',
+	result = 'underground-belt-hood',
 	result_count = 2,
 	enabled = false --logistics
 },
 {
 	type = 'recipe',
-	name = 'fast-transport-belt-to-ground-hood',
+	name = 'fast-underground-belt-hood',
 	ingredients = {
 		{'iron-plate', 10},
-		{'basic-transport-belt-to-ground-hood', 2},
+		{'underground-belt-hood', 2},
 		{'red-dye', 2}
 	},
-	result = 'fast-transport-belt-to-ground-hood',
+	result = 'fast-underground-belt-hood',
 	result_count = 2,
 	enabled = false --logistics 2
 },
 {
 	type = 'recipe',
-	name = 'express-transport-belt-to-ground-hood',
+	name = 'express-underground-belt-hood',
 	ingredients = {
 		{'iron-plate', 10},
-		{'fast-transport-belt-to-ground-hood', 2},
+		{'fast-underground-belt-hood', 2},
 		{'blue-dye', 2}
 	},
-	result = 'express-transport-belt-to-ground-hood',
+	result = 'express-underground-belt-hood',
 	result_count = 2,
 	enabled = false --logistics 3
 },
 --splitters
 {
 	type = 'recipe',
-	name = 'basic-splitter-mechanism',
+	name = 'splitter-mechanism',
 	ingredients = {
 		{'yellow-dye', 1},
 		{'iron-plate', 5},
 		{'electronic-circuit', 5}
 	},
-	result = 'basic-splitter-mechanism',
+	result = 'splitter-mechanism',
 	result_count = 1,
 	enabled = false --logistics
 },
@@ -96,7 +96,7 @@ data:extend({
 		{'red-dye', 1},
 		{'iron-gear-wheel', 10},
 		{'electronic-circuit', 10},
-		{'basic-splitter-mechanism', 1}
+		{'splitter-mechanism', 1}
 	},
 	result = 'fast-splitter-mechanism',
 	result_count = 1,
@@ -121,8 +121,8 @@ data:extend({
 
 --Changes
 --Belts
-data.raw.recipe['basic-transport-belt'].ingredients = {
-	{'basic-belt-surface', 1},
+data.raw.recipe['transport-belt'].ingredients = {
+	{'belt-surface', 1},
 	{'belt-mechanism', 1},
 	{'iron-gear-wheel', 1}
 }
@@ -138,27 +138,27 @@ data.raw.recipe['express-transport-belt'].ingredients = {
 	{type = 'fluid', name = 'lubricant', amount = 2}
 }
 --Underground
-data.raw.recipe['basic-transport-belt-to-ground'].ingredients = {
-	{'basic-transport-belt-to-ground-hood', 2},
-	{'basic-transport-belt', 5},
-	{'basic-belt-surface', 2}
+data.raw.recipe['underground-belt'].ingredients = {
+	{'underground-belt-hood', 2},
+	{'transport-belt', 5},
+	{'belt-surface', 2}
 }
-data.raw.recipe	['fast-transport-belt-to-ground'].ingredients = {
-	{'fast-transport-belt-to-ground-hood', 2},
+data.raw.recipe	['fast-underground-belt'].ingredients = {
+	{'fast-underground-belt-hood', 2},
 	{'fast-transport-belt', 5},
 	{'fast-belt-surface', 2}
 }
-data.raw.recipe['express-transport-belt-to-ground'].category = 'crafting-with-fluid'
-data.raw.recipe['express-transport-belt-to-ground'].ingredients = {
-	{'express-transport-belt-to-ground-hood', 2},
+data.raw.recipe['express-underground-belt'].category = 'crafting-with-fluid'
+data.raw.recipe['express-underground-belt'].ingredients = {
+	{'express-underground-belt-hood', 2},
 	{'express-transport-belt', 5},
 	{'express-belt-surface', 2},
 	{type = 'fluid', name = 'lubricant', amount = 8}
 }
 --splitter
-data.raw.recipe['basic-splitter'].ingredients = {
-	{'basic-belt-surface', 4},
-	{'basic-splitter-mechanism', 1}
+data.raw.recipe['splitter'].ingredients = {
+	{'belt-surface', 4},
+	{'splitter-mechanism', 1}
 }
 data.raw.recipe['fast-splitter'].ingredients = {
 	{'fast-belt-surface', 4},

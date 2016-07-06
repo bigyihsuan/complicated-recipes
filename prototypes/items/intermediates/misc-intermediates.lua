@@ -51,7 +51,7 @@ data:extend({
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/raw-steel.png', --icon directory
 	subgroup = 'intermediates',
-	order = 'b-c'
+	order = 'b-c',
 	stack_size = 100
 },
 {
@@ -60,7 +60,7 @@ data:extend({
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/ores/crushed-stone.png', --icon directory
 	subgroup = 'ores',
-	order = 'b-d'
+	order = 'b-d',
 	stack_size = 100
 },
 {
@@ -69,7 +69,7 @@ data:extend({
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/ores/glass.png', --icon directory
 	subgroup = 'ores',
-	order = 'b-e'
+	order = 'b-e',
 	stack_size = 100
 }
 })

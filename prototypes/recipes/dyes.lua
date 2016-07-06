@@ -22,6 +22,20 @@ data:extend({
 },
 {
 	type = 'recipe',
+	name = 'black-dye',
+	ingredients = {{'raw-wood', 1}},
+	result = 'black-dye',
+	result_count = 10
+},
+{
+	type = 'recipe',
+	name = 'white-dye',
+	ingredients = {{'raw-wood', 1}},
+	result = 'white-dye',
+	result_count = 10
+},
+{
+	type = 'recipe',
 	name = 'green-dye',
 	ingredients = {{'yellow-dye', 1}, {'blue-dye', 1}},
 	result = 'green-dye',

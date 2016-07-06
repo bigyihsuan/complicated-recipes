@@ -11,14 +11,14 @@ data:extend({
 },
 {
     type = 'recipe',
-    name = 'basic-inserter-arm',
+    name = 'inserter-arm',
     ingredients = {
         {'iron-plate', 1},
         {'iron-gear-wheel', 1},
         {'burner-inserter-arm', 1},
         {'yellow-dye', 1}
     },
-    result = 'basic-inserter-arm'
+    result = 'inserter-arm'
 },
 {
     type = 'recipe',
@@ -26,7 +26,7 @@ data:extend({
     ingredients = {
         {'iron-plate', 1},
         {'iron-gear-wheel', 1},
-        {'basic-inserter-arm', 1},
+        {'inserter-arm', 1},
         {'red-dye', 1}
     },
     enabled = false, --automation
@@ -38,7 +38,7 @@ data:extend({
     ingredients = {
         {'iron-plate', 1},
         {'iron-gear-wheel', 1},
-        {'basic-inserter-arm', 1},
+        {'inserter-arm', 1},
         {'blue-dye', 1}
     },
     enabled = false, --logistics
@@ -46,15 +46,39 @@ data:extend({
 },
 {
     type = 'recipe',
-    name = 'smart-inserter-arm',
+    name = 'filter-inserter-arm',
     ingredients = {
         {'iron-plate', 1},
         {'iron-gear-wheel', 1},
         {'fast-inserter-arm', 1},
-        {'green-dye', 1}
+        {'purple-dye', 1}
     },
     enabled = false, --electronics
-    result = 'smart-inserter-arm'
+    result = 'filter-inserter-arm'
+},
+{
+    type = 'recipe',
+    name = 'stack-inserter-arm',
+    ingredients = {
+		{'iron-plate', 1},
+        {'iron-gear-wheel', 1},
+        {'fast-inserter-arm', 1},
+        {'green-dye', 1}
+    },
+    enabled = false, --logistics-2
+    result = 'stack-inserter-arm'
+},
+{
+    type = 'recipe',
+    name = 'stack-filter-inserter-arm',
+    ingredients = {
+		{'iron-plate', 1},
+        {'iron-gear-wheel', 1},
+        {'filter-inserter-arm', 1},
+        {'white-dye', 1}
+    },
+    enabled = false, --logistics-2
+    result = 'stack-filter-inserter-arm'
 },
 
 --Platforms
@@ -69,20 +93,20 @@ data:extend({
 },
 {
     type = 'recipe',
-    name = 'basic-inserter-platform',
+    name = 'inserter-platform',
     ingredients = {
         {'electronic-circuit', 1},
         {'burner-inserter-platform', 1},
         {'yellow-dye', 1}
     },
-    result = 'basic-inserter-platform'
+    result = 'inserter-platform'
 },
 {
     type = 'recipe',
     name = 'long-armed-inserter-platform',
     ingredients = {
         {'electronic-circuit', 1},
-        {'basic-inserter-platform', 1},
+        {'inserter-platform', 1},
         {'red-dye', 1}
     },
     enabled = false, --automation
@@ -93,7 +117,7 @@ data:extend({
     name = 'fast-inserter-platform',
     ingredients = {
         {'electronic-circuit', 2},
-        {'basic-inserter-platform', 1},
+        {'inserter-platform', 1},
         {'blue-dye', 1}
     },
     enabled = false, --logistics
@@ -101,14 +125,37 @@ data:extend({
 },
 {
     type = 'recipe',
-    name = 'smart-inserter-platform',
+    name = 'filter-inserter-platform',
     ingredients = {
         {'electronic-circuit', 4},
         {'fast-inserter-platform', 1},
-        {'green-dye', 1}
+        {'purple-dye', 1}
     },
     enabled = false, --electronics
-    result = 'smart-inserter-platform'
+    result = 'filter-inserter-platform'
+},
+{
+    type = 'recipe',
+    name = 'stack-inserter-platform',
+    ingredients = {
+        {'electronic-circuit', 15},
+		{'fast-inserter-platform', 1},
+		{'advanced-circuit', 1},
+		{'green-dye', 1}
+    },
+    enabled = false, --logistics-2
+    result = 'stack-inserter-platform'
+},
+{
+    type = 'recipe',
+    name = 'stack-filter-inserter-platform',
+    ingredients = {
+        {'stack-inserter-platform', 1},
+		{'electronic-circuit', 5},
+		{'white-dye', 1}
+    },
+    enabled = false, --logistics-2
+    result = 'stack-filter-inserter-platform'
 }
 })
 
@@ -117,9 +164,9 @@ data.raw.recipe['burner-inserter'].ingredients = {
 	{'burner-inserter-arm', 1},
 	{'burner-inserter-platform', 1}
 }
-data.raw.recipe['basic-inserter'].ingredients = {
-	{'basic-inserter-arm', 1},
-	{'basic-inserter-platform', 1}
+data.raw.recipe['inserter'].ingredients = {
+	{'inserter-arm', 1},
+	{'inserter-platform', 1}
 }
 data.raw.recipe['long-handed-inserter'].ingredients = {
 	{'long-armed-inserter-arm', 1},
@@ -129,7 +176,15 @@ data.raw.recipe['fast-inserter'].ingredients = {
 	{'fast-inserter-arm', 1},
 	{'fast-inserter-platform', 1}
 }
-data.raw.recipe['smart-inserter'].ingredients = {
-	{'smart-inserter-arm', 1},
-	{'smart-inserter-platform', 1}
+data.raw.recipe['filter-inserter'].ingredients = {
+	{'filter-inserter-arm', 1},
+	{'filter-inserter-platform', 1}
+}
+data.raw.recipe['stack-inserter'].ingredients = {
+	{'stack-inserter-arm', 1},
+	{'stack-inserter-platform', 1}
+}
+data.raw.recipe['stack-filter-inserter'].ingredients = {
+	{'stack-filter-inserter-arm', 1},
+	{'stack-filter-inserter-platform', 1}
 }

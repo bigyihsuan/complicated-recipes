@@ -7,14 +7,18 @@ end
 
 --The massive list of tech migrations
 if force.technologies['logistics'].researched then
-	force.recipes['basic-transport-belt-to-ground-hood'].enabled = true
-	force.recipes['basic-splitter-mechanism'].enabled = true
+	force.recipes['underground-belt-hood'].enabled = true
+	force.recipes['splitter-mechanism'].enabled = true
 end
 
 if force.technologies['logistics-2'].researched then
 	force.recipes['fast-belt-surface'].enabled = true
 	force.recipes['fast-transport-belt-to-ground-hood'].enabled = true
 	force.recipes['fast-splitter-mechanism'].enabled = true
+	force.recipes['stack-inserter-arm'].enabled = true
+	force.recipes['stack-inserter-platform'].enabled = true
+	force.recipes['filter-stack-inserter-arm'].enabled = true
+	force.recipes['filter-stack-inserter-platform'].enabled = true
 end
 
 if force.technologies['logistics-3'].researched then
@@ -72,4 +76,11 @@ end
 
 if force.technologies['oil-processing'].researched then
 	force.recipes['compressed-solid-fuel'].enabled = true
+end
+
+if force.technologies['rocket-silo'].researched then
+	force.recipes['low-density-structure-frame'].enabled = true
+	force.recipes['rocket-control-unit-cpu'].enabled = true
+	force.recipes['rocket-control-unit-case'].enabled = true
+	force.recipes['satellite-frame'].enabled = true
 end

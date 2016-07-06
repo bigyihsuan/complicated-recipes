@@ -4,5 +4,6 @@
 	"version":"1.0.0",
 	"title":"Complicated Recipes",
 	"description":"Makes recipes more complicated and difficult to compared to vanilla, but less insane than Bob's Mods.",
-	"dependencies": ["base"]
+	"dependencies": ["base >= 0.13"],
+	"factorio_version": "0.13"
 }

@@ -6,7 +6,7 @@ require('prototypes.items.intermediates.inserters')
 require('prototypes.items.intermediates.misc-intermediates')
 require('prototypes.items.military')
 require('prototypes.items.intermediates.modules')
-require('prototypes.intermediates.rocket-parts')
+require('prototypes.items.rocket-parts')
 
 require('prototypes.recipes.assemblers')
 require('prototypes.recipes.belts')

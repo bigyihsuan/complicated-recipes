@@ -9,7 +9,7 @@ data:extend({
 		{'white-dye', 1}
 	},
 	result = 'low-density-structure-frame',
-	energy_required = 10
+	energy_required = 10,
 	result_count = 1,
 	enabled = false --rocket silo
 },
@@ -23,7 +23,7 @@ data:extend({
 		{'black-dye', 1}
 	},
 	result = 'rocket-control-unit-case',
-	energy_required = 10
+	energy_required = 10,
 	result_count = 1,
 	enabled = false --rocket silo
 },
@@ -38,7 +38,7 @@ data:extend({
 		{'green-wire', 5}
 	},
 	result = 'rocket-control-unit-CPU',
-	energy_required = 10
+	energy_required = 10,
 	result_count = 1,
 	enabled = false --rocket silo
 },
@@ -51,7 +51,7 @@ data:extend({
 		{'iron-stick', 100}
 	},
 	result = 'satellite-frame',
-	energy_required = 10
+	energy_required = 10,
 	result_count = 1,
 	enabled = false --rocket silo
 }

@@ -12,7 +12,7 @@ data:extend({
 {
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
-	name = 'basic-belt-surface',
+	name = 'belt-surface',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/belt-surface-0.png',
 	subgroup = 'CR-belts',
 	inventory_order = 'a[belts]-b[belt-surface-0]',
@@ -40,7 +40,7 @@ data:extend({
 {
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
-	name = 'basic-transport-belt-to-ground-hood',
+	name = 'underground-belt-hood',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-0.png', --icon directory
 	subgroup = 'CR-belts',
 	inventory_order = 'b[hood]-a[hood-0]',
@@ -49,7 +49,7 @@ data:extend({
 {
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
-	name = 'fast-transport-belt-to-ground-hood',
+	name = 'fast-underground-belt-hood',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-1.png', --icon directory
 	subgroup = 'CR-belts',
 	inventory_order = 'b[hood]-a[hood-1]',
@@ -58,7 +58,7 @@ data:extend({
 {
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
-	name = 'express-transport-belt-to-ground-hood',
+	name = 'express-underground-belt-hood',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/underground-belt-hood-2.png', --icon directory
 	subgroup = 'CR-belts',
 	inventory_order = 'b[hood]-a[hood-2]',
@@ -68,7 +68,7 @@ data:extend({
 {
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
-	name = 'basic-splitter-mechanism',
+	name = 'splitter-mechanism',
 	icon = '__complicated-recipes__/graphics/intermediates/belts/splitter-mechanism-0.png',
 	subgroup = 'CR-belts',
 	inventory_order = 'c[splitter]-a[splitter-mechanism-0]',
