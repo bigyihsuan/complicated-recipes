@@ -29,7 +29,7 @@ data:extend({
 },
 {
 	type = 'recipe',
-	name = 'rocket-control-unit-CPU',
+	name = 'rocket-control-unit-cpu',
 	ingredients = {
 		{'processing-unit', 5},
 		{'speed-module-3', 5},
@@ -37,7 +37,7 @@ data:extend({
 		{'red-wire', 5},
 		{'green-wire', 5}
 	},
-	result = 'rocket-control-unit-CPU',
+	result = 'rocket-control-unit-cpu',
 	energy_required = 10,
 	result_count = 1,
 	enabled = false --rocket silo
@@ -64,12 +64,12 @@ data.raw.recipe['low-density-structure'].ingredients = {
 }
 data.raw.recipe['rocket-control-unit'].ingredients = {
 	{'rocket-control-unit-case', 1},
-	{'rocket-control-unit-CPU', 5},
+	{'rocket-control-unit-cpu', 5},
 }
 data.raw.recipe['satellite'].ingredients = {
 	{'satellite-frame', 100},
 	{'solar-panel', 100},
-	{'basic-accumulator', 100},
+	{'accumulator', 100},
 	{'radar', 10},
 	{'rocket-control-unit', 50},
 	{'rocket-fuel', 50}

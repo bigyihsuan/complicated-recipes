@@ -3,7 +3,7 @@ data:extend({
 	type = 'item',
 	name = 'speed-module-casing',
 	flags = {'goes-to-main-inventory'},
-	icon = '__complicated-recipes__/graphics/intermediates/modules/speed-module-casing.png', --icon directory
+	icon = '__complicated-recipes__/graphics/intermediates/modules/speed-module-case.png', --icon directory
 	subgroup = 'modules',
 	stack_size = 50
 },
@@ -11,7 +11,7 @@ data:extend({
 	type = 'item',
 	name = 'effectivity-module-casing',
 	flags = {'goes-to-main-inventory'},
-	icon = '__complicated-recipes__/graphics/intermediates/modules/effectivity-module-casing.png', --icon directory
+	icon = '__complicated-recipes__/graphics/intermediates/modules/effectivity-module-case.png', --icon directory
 	subgroup = 'modules',
 	stack_size = 50
 },
@@ -19,7 +19,7 @@ data:extend({
 	type = 'item',
 	name = 'productivity-module-casing',
 	flags = {'goes-to-main-inventory'},
-	icon = '__complicated-recipes__/graphics/intermediates/modules/productivity-module-casing.png', --icon directory
+	icon = '__complicated-recipes__/graphics/intermediates/modules/productivity-module-case.png', --icon directory
 	subgroup = 'modules',
 	stack_size = 50
 },
@@ -27,7 +27,7 @@ data:extend({
 	type = 'item',
 	name = 'speed-augment',
 	flags = {'goes-to-main-inventory'},
-	icon = '__complicated-recipes__/graphics/intermediates/modules/speed-augment.png', --icon directory
+	icon = '__complicated-recipes__/graphics/intermediates/modules/augment-speed.png', --icon directory
 	subgroup = 'modules',
 	stack_size = 100
 },
@@ -35,7 +35,7 @@ data:extend({
 	type = 'item',
 	name = 'effectivity-augment',
 	flags = {'goes-to-main-inventory'},
-	icon = '__complicated-recipes__/graphics/intermediates/modules/effectivity-augment.png', --icon directory
+	icon = '__complicated-recipes__/graphics/intermediates/modules/augment-effectivity.png', --icon directory
 	subgroup = 'modules',
 	stack_size = 100
 },
@@ -43,7 +43,7 @@ data:extend({
 	type = 'item',
 	name = 'productivity-augment',
 	flags = {'goes-to-main-inventory'},
-	icon = '__complicated-recipes__/graphics/intermediates/modules/productivity-augment.png', --icon directory
+	icon = '__complicated-recipes__/graphics/intermediates/modules/augment-productivity.png', --icon directory
 	subgroup = 'modules',
 	stack_size = 100
 }

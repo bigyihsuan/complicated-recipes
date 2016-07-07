@@ -30,14 +30,14 @@ data:extend({
 {
 	type = 'item-group',
 	name = 'CR-dyes',
-	icon = '__complicated-recipes__/graphics/intermediates/circuits/dye-yellow.png',
+	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-yellow.png',
 	order = 'zd',
 	inventory_order = 'zd'
 },
 {
 	type = 'item-group',
 	name = 'CR-military',
-	icon = '__complicated-recipes__/graphics/intermediates/circuits/blank-magazine.png',
+	icon = '__complicated-recipes__/graphics/weapons/blank-magazine.png',
 	order = 'ze',
 	inventory_order = 'ze'
 },
@@ -47,6 +47,13 @@ data:extend({
 	icon = '__base__/graphics/icons/rocket-part.png',
 	order = 'zf',
 	inventory_order = 'zf',
+},
+{
+	type = 'item-group',
+	name = 'CR-ores',
+	icon = '__complicated-recipes__/graphics/intermediates/crushed-stone.png',
+	order = 'zg',
+	inventory_order = 'zg',
 },
 {
 	type = 'item-subgroup',
@@ -76,6 +83,36 @@ data:extend({
 	type = 'item-subgroup',
 	name = 'circuits',
 	group = 'CR-circuits',
+	order = 'a'
+},
+{
+	type = 'item-subgroup',
+	name = 'dyes',
+	group = 'CR-dyes',
+	order = 'a'
+},
+{
+	type = 'item-subgroup',
+	name = 'belts',
+	group = 'CR-belts',
+	order = 'a'
+},
+{
+	type = 'item-subgroup',
+	name = 'ores',
+	group = 'CR-ores',
+	order = 'a'
+},
+{
+	type = 'item-subgroup',
+	name = 'military',
+	group = 'CR-military',
+	order = 'a'
+},
+{
+	type = 'item-subgroup',
+	name = 'rocket-parts',
+	group = 'CR-rocket-parts',
 	order = 'a'
 }
 })
