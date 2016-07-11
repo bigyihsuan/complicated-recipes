@@ -5,7 +5,7 @@ for index, force in pairs(game.forces) do
  	force.reset_technologies()
 end
 
---The massive list of tech migrations
+--researched
 if force.technologies['logistics'].researched then
 	force.recipes['underground-belt-hood'].enabled = true
 	force.recipes['splitter-mechanism'].enabled = true
@@ -83,4 +83,19 @@ if force.technologies['rocket-silo'].researched then
 	force.recipes['rocket-control-unit-cpu'].enabled = true
 	force.recipes['rocket-control-unit-case'].enabled = true
 	force.recipes['satellite-frame'].enabled = true
+end
+
+if force.technologies['speed-module'].researched then
+	force.recipes['speed-module-casing'].enabled = true
+	force.recipes['speed-augment'].enabled = true
+end
+
+if force.technologies['effectivity-module'].researched then
+	force.recipes['effectivity-module-casing'].enabled = true
+	force.recipes['effectivity-augment'].enabled = true
+end
+
+if force.technologies['productivity-module'].researched then
+	force.recipes['productivity-module-casing'].enabled = true
+	force.recipes['productivity-augment'].enabled = true
 end

@@ -14,7 +14,7 @@ data:extend({
 	name = 'electronic-circuit-board',
 	icon = '__complicated-recipes__/graphics/intermediates/circuits/circuit-board-1.png',
 	subgroup = 'circuits',
-	inventory_order = 'b[board-1]',
+	inventory_order = 'a[board-1]',
 	stack_size = 100
 },
 {
@@ -23,7 +23,7 @@ data:extend({
 	name = 'advanced-circuit-board',
 	icon = '__complicated-recipes__/graphics/intermediates/circuits/circuit-board-2.png',
 	subgroup = 'circuits',
-	inventory_order = 'c[board-2]',
+	inventory_order = 'a[board-2]',
 	stack_size = 100
 },
 {
@@ -32,7 +32,7 @@ data:extend({
 	name = 'processing-circuit-board',
 	icon = '__complicated-recipes__/graphics/intermediates/circuits/circuit-board-3.png',
 	subgroup = 'circuits',
-	inventory_order = 'd[board-3]',
+	inventory_order = 'a[board-3]',
 	stack_size = 100
 }
 })
