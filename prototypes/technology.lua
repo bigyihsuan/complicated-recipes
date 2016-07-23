@@ -1,45 +1,53 @@
-recipes = {
-	['logistics'] = 'basic-transport-belt-to-ground-hood',
-	['logistics'] = 'basic-splitter-mechanism',
-	['logistics-2'] = 'fast-transport-belt-to-ground-hood',
-	['logistics-2'] = 'fast-splitter-mechanism',
-	['logistics-2'] = 'fast-belt-surface',
-	['logistics-2'] = 'stack-inserter-arm',
-	['logistics-2'] = 'stack-inserter-platform',
-	['logistics-2'] = 'filter-stack-inserter-arm',
-	['logistics-2'] = 'filter-stack-inserter-platform',
-	['logistics-3'] = 'express-transport-belt-to-ground-hood',
-	['logistics-3'] = 'express-splitter-mechanism',
-	['logistics-3'] = 'express-belt-surface',
-	['automation'] = 'assembling-machine-1-frame',
-	['automation-2'] = 'assembling-machine-2-frame',
-	['automation-3'] = 'assembling-machine-3-frame',
-	['advanced-electronics'] = 'advanced-circuit-board',
-	['advanced-electronics-2'] = 'processing-circuit-board',
-	['automation'] = 'long-armed-inserter-arm',
-	['automation'] = 'long-armed-inserter-platform',
-	['logistics'] = 'fast-inserter-arm',
-	['logistics'] = 'fast-inserter-platform',
-	['electronics'] = 'smart-inserter-arm',
-	['electronics'] = 'smart-inserter-platform',
-	['military'] = 'blank-shotgun-shell',
-	['military-2'] = 'piercing-bullet',
-	['military-3'] = 'blank-capsule',
-	['oil-processing'] = 'compressed-solid-fuel' ,
-	['speed-module'] = 'speed-augment',
-	['speed-module'] = 'speed-module-casing',
-	['productivity-module'] = 'productivity-augment',
-	['productivity-module'] = 'productivity-module-casing',
-	['effectivity-module'] = 'effectivity-augment',
-	['effectivity-module'] = 'effectivity-module-casing',
-	['optics'] = 'glass',
-	['optics'] = 'crushed-stone',
-	['steel-processing'] = 'high-carbon-iron-plate',
-	['steel-processing'] = 'raw-steel',
-	['rocket-silo'] = 'rocket-control-unit-CPU',
-	['rocket-silo'] = 'rocket-control-unit-case',
-	['rocket-silo'] = 'satellite-frame',
-	['rocket-silo'] = 'low-density-structure-frame'
-}
---['tech-name'] = 'recipe-name'
-addTechnologyRecipes(recipes)
+addTechnologyRecipe('logistics', 'underground-belt-hood')
+addTechnologyRecipe('logistics', 'splitter-mechanism')
+addTechnologyRecipe('logistics', 'fast-inserter-arm')
+addTechnologyRecipe('logistics', 'fast-inserter-platform')
+
+addTechnologyRecipe('logistics-2', 'fast-underground-belt-hood')
+addTechnologyRecipe('logistics-2', 'fast-splitter-mechanism')
+addTechnologyRecipe('logistics-2', 'fast-belt-surface')
+addTechnologyRecipe('logistics-2', 'stack-inserter-arm')
+addTechnologyRecipe('logistics-2', 'stack-inserter-platform')
+addTechnologyRecipe('logistics-2', 'stack-filter-inserter-arm')
+addTechnologyRecipe('logistics-2', 'stack-filter-inserter-platform')
+
+addTechnologyRecipe('logistics-3', 'express-underground-belt-hood')
+addTechnologyRecipe('logistics-3', 'express-splitter-mechanism')
+addTechnologyRecipe('logistics-3', 'express-belt-surface')
+
+addTechnologyRecipe('automation', 'assembling-machine-1-frame')
+addTechnologyRecipe('automation', 'long-armed-inserter-arm')
+addTechnologyRecipe('automation', 'long-armed-inserter-platform')
+
+addTechnologyRecipe('automation-2', 'assembling-machine-2-frame')
+addTechnologyRecipe('automation-3', 'assembling-machine-3-frame')
+
+addTechnologyRecipe('advanced-electronics', 'advanced-circuit-board')
+addTechnologyRecipe('advanced-electronics-2', 'processing-circuit-board')
+
+addTechnologyRecipe('electronics', 'filter-inserter-arm')
+addTechnologyRecipe('electronics', 'filter-inserter-platform')
+
+addTechnologyRecipe('military', 'blank-shotgun-shell')
+addTechnologyRecipe('military-2', 'piercing-bullet')
+addTechnologyRecipe('military-3', 'blank-capsule')
+
+addTechnologyRecipe('oil-processing', 'compressed-solid-fuel')
+
+addTechnologyRecipe('speed-module', 'speed-augment')
+addTechnologyRecipe('speed-module', 'speed-module-casing')
+addTechnologyRecipe('productivity-module', 'productivity-augment')
+addTechnologyRecipe('productivity-module', 'productivity-module-casing')
+addTechnologyRecipe('effectivity-module', 'effectivity-augment')
+addTechnologyRecipe('effectivity-module', 'effectivity-module-casing')
+
+addTechnologyRecipe('optics', 'glass')
+addTechnologyRecipe('optics', 'crushed-stone')
+
+addTechnologyRecipe('steel-processing', 'high-carbon-iron-plate')
+addTechnologyRecipe('steel-processing', 'raw-steel')
+
+addTechnologyRecipe('rocket-silo', 'rocket-control-unit-cpu')
+addTechnologyRecipe('rocket-silo', 'rocket-control-unit-case')
+addTechnologyRecipe('rocket-silo', 'satellite-frame')
+addTechnologyRecipe('rocket-silo', 'low-density-structure-frame')

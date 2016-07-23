@@ -1,20 +1,15 @@
-function addTechnologyRecipe (technology, recipe)
-  if data.raw.technology[technology] and data.raw.recipe[recipe] then
-    local addit = true
-    if not data.raw.technology[technology].effects then
-      data.raw.technology[technology].effects = {}
-    end
-    for i, effect in pairs(data.raw.technology[technology].effects) do
-      if effect.type == "unlock-recipe" and effect.recipe == recipe then addit = false end
-    end
-    if addit then table.insert(data.raw.technology[technology].effects,{type = "unlock-recipe", recipe = recipe}) end
-  end
-end
-function addTechnologyRecipes (dicitionary)
-	for key,value in pairs(dicitionary) do 
-		 addTechnologyRecipe(key,value)
+function addTechnologyRecipe(technology_name, recipe_name) --takes 2 strings: tech name and recipe name
+	if data.raw['technology'][technology_name].effects == nil then
+    data.raw['technology'][technology_name].effects = {}
 	end
+
+	table.insert(data.raw['technology'][technology_name].effects, {
+    	type = 'unlock-recipe',
+    	recipe = recipe_name
+	})
 end
+
+
 function addProductivityLimitation(intermediate)
   for i, module in pairs(data.raw.module) do
     if module.limitation then

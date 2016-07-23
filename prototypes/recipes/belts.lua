@@ -148,12 +148,11 @@ data.raw.recipe	['fast-underground-belt'].ingredients = {
 	{'fast-transport-belt', 5},
 	{'fast-belt-surface', 2}
 }
-data.raw.recipe['express-underground-belt'].category = 'crafting-with-fluid'
 data.raw.recipe['express-underground-belt'].ingredients = {
 	{'express-underground-belt-hood', 2},
 	{'express-transport-belt', 5},
 	{'express-belt-surface', 2},
-	{type = 'fluid', name = 'lubricant', amount = 8}
+	{type = 'fluid', name = 'lubricant', amount = 2}
 }
 --splitter
 data.raw.recipe['splitter'].ingredients = {
@@ -166,5 +165,6 @@ data.raw.recipe['fast-splitter'].ingredients = {
 }
 data.raw.recipe['express-splitter'].ingredients = {
 	{'express-belt-surface', 4},
-	{'express-splitter-mechanism', 1}
+	{'express-splitter-mechanism', 1},
+	{type = 'fluid', name = 'lubricant', amount = 2}
 }
