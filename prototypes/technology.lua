@@ -51,3 +51,12 @@ addTechnologyRecipe('rocket-silo', 'rocket-control-unit-cpu')
 addTechnologyRecipe('rocket-silo', 'rocket-control-unit-case')
 addTechnologyRecipe('rocket-silo', 'satellite-frame')
 addTechnologyRecipe('rocket-silo', 'low-density-structure-frame')
+
+addTechnologyRecipe('battery', 'cathode')
+addTechnologyRecipe('battery', 'anode')
+addTechnologyRecipe('battery', 'battery-casing')
+
+addTechnologyRecipe('electric-energy-distribution-1', 'steel-rebar')
+addTechnologyRecipe('electric-energy-distribution-1', 'copper-contact')
+addTechnologyRecipe('electric-energy-accumulators', 'high-voltage-battery')
+addTechnologyRecipe('solar-energy', 'photovoltaic-cell')

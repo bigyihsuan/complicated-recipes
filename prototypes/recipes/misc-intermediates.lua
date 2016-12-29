@@ -107,6 +107,16 @@ data:extend({
 	result = '',
 	result_count = 1,
 	enabled = false --battery
+},
+{
+	type = 'recipe',
+	name = 'rail-tie',
+	ingredients = {
+		{'steel-plate', 5}
+	},
+	result = 'rail-tie',
+	result_count = 1,
+	enabled = false --railway
 }
 })
 
@@ -144,4 +154,9 @@ data.raw.recipe['battery'].ingredients = {
 	{'iron-plate', 1},
 	{'copper-plate', 1},
 	{type = 'fluid', name = 'sulfuric-acid', amount = 2}
+}
+data.raw.recipe['rail'].ingredients = {
+	{'rail-tie', 2},
+	{'crushed-stone', 2},
+	{'iron-stick', 5}
 }

@@ -79,7 +79,7 @@ data:extend({
 	icon = '__complicated-recipes__/graphics/intermediates/cathode.png', --icon directory
 	subgroup = 'intermediates',
 	stack_size = 100
-}
+},
 {
 	type = 'item',
 	name = 'anode',
@@ -87,12 +87,20 @@ data:extend({
 	icon = '__complicated-recipes__/graphics/intermediates/anode.png', --icon directory
 	subgroup = 'intermediates',
 	stack_size = 100
-}
+},
 {
 	type = 'item',
 	name = 'battery-casing',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/battery-casing.png', --icon directory
+	subgroup = 'intermediates',
+	stack_size = 100
+},
+{
+	type = 'item',
+	name = 'rail-tie',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/intermediates/rail-tie.png', --icon directory
 	subgroup = 'intermediates',
 	stack_size = 100
 }
