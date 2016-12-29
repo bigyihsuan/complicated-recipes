@@ -8,7 +8,7 @@ data:extend({
 		},
 		result = 'steel-rebar',
 		result_count = 2,
-		enabled = false --electric-energy-distribution-1
+		enabled = false -- electric-energy-distribution-1
 	},
 	{
 		type = 'recipe',
