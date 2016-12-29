@@ -71,5 +71,29 @@ data:extend({
 	subgroup = 'ores',
 	order = 'b-e',
 	stack_size = 100
+},
+{
+	type = 'item',
+	name = 'cathode',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/intermediates/cathode.png', --icon directory
+	subgroup = 'intermediates',
+	stack_size = 100
+}
+{
+	type = 'item',
+	name = 'anode',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/intermediates/anode.png', --icon directory
+	subgroup = 'intermediates',
+	stack_size = 100
+}
+{
+	type = 'item',
+	name = 'battery-casing',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/intermediates/battery-casing.png', --icon directory
+	subgroup = 'intermediates',
+	stack_size = 100
 }
 })

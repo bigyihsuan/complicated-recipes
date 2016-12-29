@@ -74,6 +74,39 @@ data:extend({
 	result = 'glass',
 	result_count = 1,
 	enabled = false --optics
+},
+{
+	type = 'recipe',
+	name = 'cathode',
+	ingredients = {
+		{'copper-plate', 1},
+		{'orange-dye', 1}
+	},
+	result = 'cathode',
+	result_count = 1,
+	enabled = false --battery
+},
+{
+	type = 'recipe',
+	name = 'anode',
+	ingredients = {
+		{'iron-plate', 1},
+		{'black-dye', 1}
+	},
+	result = 'anode',
+	result_count = 1,
+	enabled = false --battery
+},
+{
+	type = 'recipe',
+	name = 'battery-casing',
+	ingredients = {
+		{'cathose', 1},
+		{'anode', 1}
+	},
+	result = '',
+	result_count = 1,
+	enabled = false --battery
 }
 })
 
@@ -105,4 +138,10 @@ data.raw.recipe['small-lamp'].ingredients = {
 	{'iron-stick', 3},
 	{'electronic-circuit', 1},
 	{'glass', 5}
+}
+data.raw.recipe['battery'].ingredients = {
+	{'battery-casing', 1},
+	{'iron-plate', 1},
+	{'copper-plate', 1},
+	{type = 'fluid', name = 'sulfuric-acid', amount = 2}
 }
