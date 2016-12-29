@@ -146,7 +146,7 @@ data.raw.recipe['steel-plate'].ingredients = {
 data.raw.recipe['steel-plate'].category = 'crafting'
 data.raw.recipe['small-lamp'].ingredients = {
 	{'iron-stick', 3},
-	{'electronic-circuit', 1},
+	{'led', 5}, --see recipes/circuit-network.lua
 	{'glass', 5}
 }
 data.raw.recipe['battery'].ingredients = {

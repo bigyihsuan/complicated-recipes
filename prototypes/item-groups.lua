@@ -114,5 +114,11 @@ data:extend({
 	name = 'rocket-parts',
 	group = 'CR-rocket-parts',
 	order = 'a'
+},
+{
+	type = 'item-subgroup',
+	name = 'circuit-network',
+	group = 'CR-intermediates',
+	order = 'd'
 }
 })

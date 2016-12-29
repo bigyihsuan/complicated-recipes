@@ -60,3 +60,11 @@ addTechnologyRecipe('electric-energy-distribution-1', 'steel-rebar')
 addTechnologyRecipe('electric-energy-distribution-1', 'copper-contact')
 addTechnologyRecipe('electric-energy-accumulators', 'high-voltage-battery')
 addTechnologyRecipe('solar-energy', 'photovoltaic-cell')
+
+addTechnologyRecipe('circuit-network', 'circuit-network-connector')
+addTechnologyRecipe('circuit-network', 'wire-acceptor')
+addTechnologyRecipe('circuit-network', 'wire-bundle')
+addTechnologyRecipe('circuit-network', 'glue')
+addTechnologyRecipe('circuit-network', 'led')
+
+addTechnologyRecipe('railway', 'rail-tie')
