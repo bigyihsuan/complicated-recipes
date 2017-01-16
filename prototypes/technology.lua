@@ -31,6 +31,7 @@ addTechnologyRecipe('electronics', 'filter-inserter-platform')
 addTechnologyRecipe('military', 'blank-shotgun-shell')
 addTechnologyRecipe('military-2', 'piercing-bullet')
 addTechnologyRecipe('military-3', 'blank-capsule')
+addTechnologyRecipe('military-3','empty-canister')
 
 addTechnologyRecipe('oil-processing', 'compressed-solid-fuel')
 
@@ -43,6 +44,7 @@ addTechnologyRecipe('effectivity-module', 'effectivity-module-casing')
 
 addTechnologyRecipe('optics', 'glass')
 addTechnologyRecipe('optics', 'crushed-stone')
+addTechnologyRecipe('optics', 'led')
 
 addTechnologyRecipe('steel-processing', 'high-carbon-iron-plate')
 addTechnologyRecipe('steel-processing', 'raw-steel')
@@ -65,6 +67,14 @@ addTechnologyRecipe('circuit-network', 'circuit-network-connector')
 addTechnologyRecipe('circuit-network', 'wire-acceptor')
 addTechnologyRecipe('circuit-network', 'wire-bundle')
 addTechnologyRecipe('circuit-network', 'glue')
-addTechnologyRecipe('circuit-network', 'led')
 
 addTechnologyRecipe('railway', 'rail-tie')
+
+addTechnologyRecipe('laser','laser-emitter')
+addTechnologyRecipe('laser','copper-wire-coil')
+
+addTechnologyRecipe('combat-robotics','miniature-rotor')
+addTechnologyRecipe('combat-robotics','slowdown-solution')
+addTechnologyRecipe('combat-robotics','slowdown-canister')
+addTechnologyRecipe('combat-robotics','poison')
+addTechnologyRecipe('combat-robotics','poison-canister')

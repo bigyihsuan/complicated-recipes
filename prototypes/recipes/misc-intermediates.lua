@@ -101,7 +101,7 @@ data:extend({
 	type = 'recipe',
 	name = 'battery-casing',
 	ingredients = {
-		{'cathose', 1},
+		{'cathode', 1},
 		{'anode', 1}
 	},
 	result = '',
@@ -159,4 +159,14 @@ data.raw.recipe['rail'].ingredients = {
 	{'rail-tie', 2},
 	{'crushed-stone', 2},
 	{'iron-stick', 5}
+}
+data.raw.recipe['rail-signal'].ingredients = {
+	{'led', 3},
+	{'electronic-circuit', 1},
+	{'iron-plate', 5}
+}
+data.raw.recipe['rail-chain-signal'].ingredients = {
+	{'led', 3},
+	{'electronic-circuit', 1},
+	{'iron-plate', 5}
 }

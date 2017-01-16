@@ -21,7 +21,8 @@ data:extend({
 	name = 'advanced-circuit-board',
 	ingredients = {
 		{'electronic-circuit-board', 2},
-		{'plastic-bar', 2}
+		{'plastic-bar', 2},
+		{'red-dye', 1}
 	},
 	result = 'advanced-circuit-board',
 	enabled = false --advanced-electronics
@@ -31,7 +32,8 @@ data:extend({
 	name = 'processing-circuit-board',
 	ingredients = {
 		{'advanced-circuit-board', 2},
-		{'electronic-circuit-board', 20}
+		{'electronic-circuit-board', 20},
+		{'blue-dye', 1}
 	},
 	result = 'processing-circuit-board',
 	enabled = false --advanced-electronics-2

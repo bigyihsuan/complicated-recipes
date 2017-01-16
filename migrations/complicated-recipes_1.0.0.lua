@@ -71,6 +71,20 @@ for index, force in pairs(game.forces) do
 
 	if force.technologies['military-3'].researched then
 		force.recipes['blank-capsule'].enabled = true
+		force.recipes['empty-canister'].enabled = true
+	end
+
+	if force.technologies['laser'].researched then
+		force.recipes['laser-emitter'].enabled = true
+		force.recipes['copper-wire-coil'].enabled = true
+	end
+
+	if force.technologies['combat-robotics'].researched then
+		force.recipes['miniature-rotor'].enabled = true
+		force.recipes['slowdown-solution'].enabled = true
+		force.recipes['poison'].enabled = true
+		force.recipes['slowdown-canister'].enabled = true
+		force.recipes['poison-canister'].enabled = true
 	end
 
 	if force.technologies['oil-processing'].researched then
@@ -97,5 +111,39 @@ for index, force in pairs(game.forces) do
 	if force.technologies['productivity-module'].researched then
 		force.recipes['productivity-module-casing'].enabled = true
 		force.recipes['productivity-augment'].enabled = true
+	end
+
+	if force.technologies['circuit-network'].researched then
+		force.recipes['circuit-network-connector'].enabled = true
+		force.recipes['wire-bundle'].enabled = true
+		force.recipes['wire-acceptor'].enabled = true
+		force.recipes['glue'].enabled = true
+	end
+
+	if force.technologies['optics'].researched then
+		force.recipes['led'].enabled = true
+	end
+
+	if force.technologies['battery'].researched then
+		force.recipes['cathode'].enabled = true
+		force.recipes['anode'].enabled = true
+		force.recipes['battery-casing'].enabled = true
+	end
+
+	if force.technologies['railway'].researched then
+		force.recipes['rail-tie'].enabled = true
+	end
+
+	if force.technologies['electric-energy-distribution-1'].researched then
+		force.recipes['steel-rebar'].enabled = true
+		force.recipes['copper-contact'].enabled = true
+	end
+
+	if force.technologies['electric-energy-accumulators'].researched then
+		force.recipes['high-voltage-battery'].enabled = true
+	end
+
+	if force.technologies['solar-panel'].researched then
+		force.recipes['photovoltaic-cell'].enabled = true
 	end
 end

@@ -55,7 +55,7 @@ data:extend({
 	},
 	result = 'led',
 	result_count = 1,
-	enabled = false --circuit-network
+	enabled = false --optics
 }
 })
 
