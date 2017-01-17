@@ -4,7 +4,7 @@ data:extend({
     name = 'bullet',
     ingredients = {
         {'iron-plate', 1},
-		{'gunpowder', 1}
+	{'gunpowder', 1}
     },
     result = 'bullet',
     result_count = 100
