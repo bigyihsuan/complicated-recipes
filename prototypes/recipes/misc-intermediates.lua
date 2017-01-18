@@ -16,6 +16,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'compressed-solid-fuel',
+	energy_required = 30,
 	ingredients = {{'solid-fuel', 10}},
 	result = 'compressed-solid-fuel',
 	enabled = false --oil processing
@@ -33,6 +34,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'high-carbon-iron-plate',
+	energy_required = 1,
 	ingredients = {
 		{'iron-plate', 2},
 		{'coal', 1}
@@ -89,6 +91,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'anode',
+	energy_required = 1,
 	ingredients = {
 		{'iron-plate', 1},
 		{'black-dye', 1}
@@ -100,6 +103,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'battery-casing',
+	energy_required = 1,
 	ingredients = {
 		{'cathode', 1},
 		{'anode', 1}

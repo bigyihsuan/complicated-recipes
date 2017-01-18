@@ -78,3 +78,6 @@ addTechnologyRecipe('combat-robotics','slowdown-solution')
 addTechnologyRecipe('combat-robotics','slowdown-canister')
 addTechnologyRecipe('combat-robotics','poison')
 addTechnologyRecipe('combat-robotics','poison-canister')
+
+addTechnologyRecipe('turrets', 'gun-mount')
+addTechnologyRecipe('turrets', 'turret-base')

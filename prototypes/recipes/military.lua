@@ -87,6 +87,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'laser-emitter',
+	energy_required = 5,
 	ingredients = {
 		{'copper-wire-coil', 10},
 		{'battery', 5},
@@ -99,6 +100,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'miniature-rotor',
+	energy_required = 5,
 	ingredients = {
 		{'iron-plate', 5},
 		{'iron-gear-wheel', 5},
@@ -112,6 +114,7 @@ data:extend({
 	type = 'recipe',
 	category = "chemistry",
 	name = 'slowdown-solution',
+	energy_required = 5,
 	ingredients = {
 		{type = 'item', name = 'raw-wood', amount = 1},
 		{type = 'fluid', name = 'water', amount = 10}
@@ -123,6 +126,7 @@ data:extend({
 	type = 'recipe',
 	category = "chemistry",
 	name = 'poison',
+	energy_required = 5,
 	ingredients = {
 		{type = 'item', name = 'coal', amount = 1},
 		{type = 'fluid', name = 'water', amount = 10}
@@ -133,6 +137,7 @@ data:extend({
 {
 	type = 'crafting-with-fluid',
 	name = 'slowdown-canister',
+	energy_required = 5,
 	ingredients = {
 		{type = 'fluid', name = 'slowdown-solution', amount = 5},
 		{'empty-canister', 1},
@@ -144,6 +149,7 @@ data:extend({
 {
 	type = 'crafting-with-fluid',
 	name = 'poison-canister',
+	energy_required = 5,
 	ingredients = {
 		{type = 'fluid', mane = 'poison', amount = 5},
 		{'empty-canister', 1}
@@ -151,6 +157,44 @@ data:extend({
 	result = 'poison-canister',
 	result_count = 1,
 	enabled = false --combat-robotics
+},
+{
+	type = 'recipe',
+	name = 'turret-base',
+	energy_required = 5,
+	ingredients = {
+		{'iron-plate', 5},
+		{'copper-plate', 5},
+		{'iron-gear-wheel', 5}
+	},
+	result = 'turret-base',
+	result_count = 1,
+	enabled = false --turrets
+},
+{
+	type = 'recipe',
+	name = 'gun-mount',
+	energy_required = 5,
+	ingredients = {
+		{'iron-gear-wheel', 5},
+		{'copper-plate', 5},
+		{'iron-stick', 5}
+	},
+	result = 'gun-mount',
+	result_count = 1,
+	enabled = false --turrets
+},
+{
+	type = 'recipe',
+	name = 'gun-barrel',
+	energy_required = 5,
+	ingredients = {
+		{'iron-plate', 2},
+		{'iron-stick', 5}
+	},
+	result = 'gun-barrel',
+	result_count = 5,
+	enabled = true --tech name here
 }
 })
 
@@ -203,4 +247,57 @@ data.raw.recipe['destroyer-capsule'].ingredients = {
 	{'distractor-capsule', 16},
 	{'laser-emitter', 10},
 	{'speed-module', 4}
+}
+data.raw.recipe['pistol'].ingredients = {
+	{'gun-barrel', 1},
+	{'iron-plate', 5},
+	{'copper-plate', 5}
+}
+data.raw.recipe['submachine-gun'].ingredients = {
+	{'gun-barrel', 2},
+	{'iron-plate', 10},
+	{'iron-gear-wheel', 10},
+	{'copper-plate', 5}
+}
+data.raw.recipe['shotgun'].ingredients = {
+	{'wood', 5},
+	{'gun-barrel', 4},
+	{'submachine-gun', 2},
+	{'iron-plate', 15}
+}
+data.raw.recipe['combat-shotgun'].ingredients = {
+	{'shotgun', 2},
+	{'wood', 10},
+	{'iron-gear-wheel', 5},
+	{'steel-plate', 15}
+}
+data.raw.recipe['rocket-launcher'].ingredients = {
+	{'shotgun', 1},
+	{'electronic-circuit', 5},
+	{'gun-barrel', 5},
+	{'iron-gear-wheel', 5}
+}
+data.raw.recipe['gun-turret'].ingredients = {
+	{'submachine-gun', 2},
+	{'iron-gear-wheel', 5},
+	{'gun-mount', 2},
+	{'turret-base', 1}
+}
+data.raw.recipe['laser-turret'].ingredients = {
+	{'gun-turret', 1},
+	{'turret-base', 1},
+	{'laser-emitter', 5},
+	{'electronic-circuit', 20}
+}
+data.raw.recipe['flame-thrower'].ingredients = {
+	{'gun-barrel', 5},
+	{'steel-plate', 5},
+	{'iron-gear-wheel', 10},
+	{'pipe', 10}
+}
+data.raw.recipe['flamethrower-turret'].ingredients = {
+	{'flame-thrower', 1},
+	{'gun-mount', 1},
+	{'turret-base', 1},
+	{'engine-unit', 5}
 }

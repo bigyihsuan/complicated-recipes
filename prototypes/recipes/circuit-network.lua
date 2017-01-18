@@ -2,6 +2,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'circuit-network-connector',
+	energy_required = 2,
 	ingredients = {
 		{'wire-acceptor', 1},
 		{type = 'fluid', name = 'glue', amount = 2},
@@ -14,6 +15,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'wire-acceptor',
+	energy_required = 2,
 	ingredients = {
 		{'wire-bundle', 4},
 		{'electronic-circuit', 1}
@@ -26,6 +28,7 @@ data:extend({
 	type = 'recipe',
 	category = "crafting-with-fluid",
 	name = 'glue',
+	energy_required = 5,
 	ingredients = {
 		{type = 'item', name = 'raw-wood', amount = 1},
 		{type = 'fluid', name = 'water', amount = 10}
@@ -49,6 +52,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'led',
+	energy_required = 2,
 	ingredients = {
 		{'glass', 5},
 		{'copper-wire', 3}

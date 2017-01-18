@@ -146,4 +146,9 @@ for index, force in pairs(game.forces) do
 	if force.technologies['solar-panel'].researched then
 		force.recipes['photovoltaic-cell'].enabled = true
 	end
+
+	if force.technologies['turrets'].researched then
+		force.recipes['turret-base'].enabled = true
+		force.recipes['gun-mount'].enabled = true
+	end
 end

@@ -128,5 +128,29 @@ data:extend({
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[poison]"
+},
+{
+	type = 'item',
+	name = 'turret-base',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/weapons/turret-base.png', --icon directory
+	subgroup = 'intermediates',
+	stack_size = 50
+},
+{
+	type = 'item',
+	name = 'gun-mount',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/weapons/gun-mount.png', --icon directory
+	subgroup = 'intermediates',
+	stack_size = 50
+},
+{
+	type = 'item',
+	name = 'gun-barrel',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/weapons/gun-barrel.png', --icon directory
+	subgroup = 'intermediates',
+	stack_size = 50
 }
 })

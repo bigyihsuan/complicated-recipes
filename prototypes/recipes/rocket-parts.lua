@@ -70,7 +70,6 @@ data.raw.recipe['satellite'].ingredients = {
 	{'satellite-frame', 100},
 	{'solar-panel', 100},
 	{'accumulator', 100},
-	{'radar', 10},
 	{'rocket-control-unit', 50},
 	{'rocket-fuel', 50}
 }

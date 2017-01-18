@@ -19,6 +19,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'advanced-circuit-board',
+	energy_required = 8,
 	ingredients = {
 		{'electronic-circuit-board', 2},
 		{'plastic-bar', 2},
@@ -30,6 +31,7 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'processing-circuit-board',
+	energy_required = 15,
 	ingredients = {
 		{'advanced-circuit-board', 2},
 		{'electronic-circuit-board', 20},
