@@ -63,7 +63,7 @@ data.raw.recipe['medium-electric-pole'].ingredients = {
 	{'steel-rebar', 10},
 	{'copper-contact', 3}
 }
-data.raw.recipe['large-electric-pole'].ingredients = {
+data.raw.recipe['big-electric-pole'].ingredients = {
 	{'steel-rebar', 20},
 	{'copper-contact', 6}
 }
