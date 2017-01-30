@@ -92,12 +92,6 @@ data:extend({
 },
 {
 	type = 'item-subgroup',
-	name = 'ores',
-	group = 'CR-ores',
-	order = 'a'
-},
-{
-	type = 'item-subgroup',
 	name = 'military',
 	group = 'CR-military',
 	order = 'a'
