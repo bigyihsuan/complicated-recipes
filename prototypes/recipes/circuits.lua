@@ -77,3 +77,23 @@ data.raw.technology['advanced-electronics'].prerequisites = {'electronics', 'cir
 	in order to be able to craft the actual circuits. Otherwise, you could
 	research Advanced Electronics and not figure out that you need to research
 	another thing to make the unlocks, so why not make it a prerequisite.]]
+data.raw.technology['advanced-electronics'].effects = {
+	{
+        type = 'unlock-recipe',
+        recipe = 'advanced-circuit'
+    },
+	{
+        type = 'unlock-recipe',
+        recipe = 'advanced-circuit-board'
+    }
+}
+data.raw.technology['advanced-electronics-2'].effects = {
+	{
+        type = 'unlock-recipe',
+        recipe = 'processing-unit'
+    },
+	{
+        type = 'unlock-recipe',
+        recipe = 'processing-circuit-board'
+    }
+}
