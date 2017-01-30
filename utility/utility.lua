@@ -1,12 +1,12 @@
 function addTechnologyRecipe(technology_name, recipe_name) --takes 2 strings: tech name and recipe name
-	if data.raw['technology'][technology_name].effects == nil then
-    data.raw['technology'][technology_name].effects = {}
-	end
-
-	table.insert(data.raw['technology'][technology_name].effects, {
-    	type = 'unlock-recipe',
-    	recipe = recipe_name
-	})
+    if data.raw.technology[technology_name].effects == nil then
+        data.raw.technology[technology_name].effects = {}
+    end
+    table.insert(data.raw.technology[technology_name].effects, {
+            type = 'unlock-recipe',
+            recipe = recipe_name
+        }
+    )
 end
 
 

@@ -55,11 +55,20 @@ data:extend({
 },
 {
 	type = 'item',
+	name = 'orange-dye',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-orange.png', --icon directory
+	subgroup = 'dyes',
+	inventory_order = 'b[secondary]-b',
+	stack_size = 100
+},
+{
+	type = 'item',
 	flags= { "goes-to-main-inventory" },
 	name = 'purple-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-purple.png',
 	subgroup = 'dyes',
-	inventory_order = 'b[secondary]-b',
+	inventory_order = 'b[secondary]-c',
 	stack_size = 100
 }
 })

@@ -3,7 +3,7 @@ data:extend({
 	type = 'item',
 	flags= { "goes-to-main-inventory" },
 	name = 'blank-magazine',
-	icon = '__complicated-recipes__/graphics/military/blank-magazine.png',
+	icon = '__complicated-recipes__/graphics/weapons/blank-magazine.png',
 	subgroup = 'military',
 	inventory_order = 'a-a',
 	stack_size = 50

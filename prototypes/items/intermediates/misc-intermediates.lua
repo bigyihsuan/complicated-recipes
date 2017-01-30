@@ -59,7 +59,7 @@ data:extend({
 	name = 'crushed-stone',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/crushed-stone.png', --icon directory
-	subgroup = 'ores',
+	subgroup = 'intermediates',
 	order = 'b-d',
 	stack_size = 100
 },
@@ -68,7 +68,7 @@ data:extend({
 	name = 'glass',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/glass.png', --icon directory
-	subgroup = 'ores',
+	subgroup = 'intermediates',
 	order = 'b-e',
 	stack_size = 100
 },

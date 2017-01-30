@@ -15,7 +15,7 @@ data:extend({
 	name = 'copper-contact',
 	ingredients = {
 		{'copper-plate', 5},
-		{'copper-wire', 10}
+		{'copper-cable', 10}
 	},
 	result = 'copper-contact',
 	result_count = 1,
@@ -28,7 +28,7 @@ data:extend({
 	ingredients = {
 		{'battery', 10},
 		{'steel-plate', 5},
-		{'copper-wire', 10}
+		{'copper-cable', 10}
 	},
 	result = 'high-voltage-battery',
 	result_count = 1,
@@ -40,7 +40,7 @@ data:extend({
 	ingredients = {
 		{'iron-plate', 1},
 		{'blue-dye', 1},
-		{'copper-wire', 1}
+		{'copper-cable', 1}
 	},
 	result = 'photovoltaic-cell',
 	result_count = 1,
@@ -57,7 +57,7 @@ data.raw.recipe['solar-panel'].ingredients = {
 data.raw.recipe['accumulator'].ingredients = {
 	{'high-voltage-battery', 4},
 	{'steel-plate', 5},
-	{'copper-wire', 10}
+	{'copper-cable', 10}
 }
 data.raw.recipe['medium-electric-pole'].ingredients = {
 	{'steel-rebar', 10},

@@ -108,7 +108,7 @@ data:extend({
 		{'cathode', 1},
 		{'anode', 1}
 	},
-	result = '',
+	result = 'battery-casing',
 	result_count = 1,
 	enabled = false --battery
 },

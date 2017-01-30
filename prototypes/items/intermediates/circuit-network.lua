@@ -24,17 +24,12 @@ data:extend({
 	stack_size = 100
 },
 {
-    type = "fluid",
-    name = "glue",
-    default_temperature = 10,
-    heat_capacity = "1KJ",
-    base_color = {r=1, g=0.7, b=0.5},
-    flow_color = {r=1, g=0.7, b=0.5},
-    max_temperature = 100,
-    icon = "__complicated-recipes__/graphics/circuit-network/glue.png",
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
-    order = "a[fluid]-b[glue]"
+	type = 'item',
+	name = 'glue',
+	flags = {'goes-to-main-inventory'},
+	icon = '__complicated-recipes__/graphics/circuit-network/glue.png', --icon directory
+	subgroup = 'intermediates',
+	stack_size = 100
 },
 {
 	type = 'item',

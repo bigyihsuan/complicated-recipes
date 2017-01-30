@@ -65,8 +65,8 @@ data:extend({
 	type = 'recipe',
 	name = 'empty-canister',
 	ingredients = {
-		{'barrel', 1},
-		{'plastic', 5}
+		{'empty-barrel', 1},
+		{'plastic-bar', 5}
 	},
 	result = 'empty-canister',
 	result_count = 2,
@@ -76,7 +76,7 @@ data:extend({
 	type = 'recipe',
 	name = 'copper-wire-coil',
 	ingredients = {
-		{'copper-wire', 10},
+		{'copper-cable', 10},
 		{'iron-plate', 2},
 		{'iron-stick', 1}
 	},
@@ -104,7 +104,7 @@ data:extend({
 	ingredients = {
 		{'iron-plate', 5},
 		{'iron-gear-wheel', 5},
-		{'electric-engine', 1}
+		{'electric-engine-unit', 1}
 	},
 	result = 'miniature-rotor',
 	result_count = 1,
@@ -119,7 +119,7 @@ data:extend({
 		{type = 'item', name = 'raw-wood', amount = 1},
 		{type = 'fluid', name = 'water', amount = 10}
 	},
-	result = {type = 'fluid', name = 'slowdown-solution', amount = 10},
+	results = {{type = 'fluid', name = 'slowdown-solution', amount = 10}},
 	enabled = false --combat-robotics
 },
 {
@@ -131,11 +131,12 @@ data:extend({
 		{type = 'item', name = 'coal', amount = 1},
 		{type = 'fluid', name = 'water', amount = 10}
 	},
-	result = {type = 'fluid', name = 'poison', amount = 10},
+	results = {{type = 'fluid', name = 'poison', amount = 10}},
 	enabled = false --combat-robotics
 },
 {
-	type = 'crafting-with-fluid',
+	type = 'recipe',
+	category = 'crafting-with-fluid',
 	name = 'slowdown-canister',
 	energy_required = 5,
 	ingredients = {
@@ -147,11 +148,12 @@ data:extend({
 	enabled = false --combat-robotics
 },
 {
-	type = 'crafting-with-fluid',
+	type = 'recipe',
+	category = 'crafting-with-fluid',
 	name = 'poison-canister',
 	energy_required = 5,
 	ingredients = {
-		{type = 'fluid', mane = 'poison', amount = 5},
+		{type = 'fluid', name = 'poison', amount = 5},
 		{'empty-canister', 1}
 	},
 	result = 'poison-canister',
@@ -240,7 +242,7 @@ data.raw.recipe['distractor-capsule'].ingredients = {
 	{'blank-capsule', 1},
 	{'defender-capsule', 8},
 	{'laser-emitter', 5},
-	{'advanced-electronics', 3}
+	{'advanced-circuit', 3}
 }
 data.raw.recipe['destroyer-capsule'].ingredients = {
 	{'blank-capsule', 1},

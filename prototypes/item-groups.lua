@@ -49,13 +49,6 @@ data:extend({
 	inventory_order = 'zf',
 },
 {
-	type = 'item-group',
-	name = 'CR-ores',
-	icon = '__complicated-recipes__/graphics/intermediates/crushed-stone.png',
-	order = 'zg',
-	inventory_order = 'zg',
-},
-{
 	type = 'item-subgroup',
 	name = 'assemblers',
 	group = 'CR-intermediates',

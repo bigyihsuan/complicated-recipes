@@ -47,5 +47,12 @@ data:extend({
 	ingredients = {{'blue-dye', 1}, {'red-dye', 1}},
 	result = 'purple-dye',
 	result_count = 2
+},
+{
+	type = 'recipe',
+	name = 'orange-dye',
+	ingredients = {{'yellow-dye', 1}, {'red-dye', 1}},
+	result = 'orange-dye',
+	result_count = 2
 }
 })

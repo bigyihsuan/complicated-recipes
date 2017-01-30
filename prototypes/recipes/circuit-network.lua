@@ -5,7 +5,7 @@ data:extend({
 	energy_required = 2,
 	ingredients = {
 		{'wire-acceptor', 1},
-		{type = 'fluid', name = 'glue', amount = 2},
+		{'glue', 2},
 		{'led', 2}
 	},
 	result = 'circuit-network-connector',
@@ -33,7 +33,8 @@ data:extend({
 		{type = 'item', name = 'raw-wood', amount = 1},
 		{type = 'fluid', name = 'water', amount = 10}
 	},
-	result = {type = 'fluid', name = 'glue', amount = 10},
+	result = 'glue',
+	result_count = 10,
 	enabled = false --circuit-network
 },
 {
@@ -42,7 +43,7 @@ data:extend({
 	ingredients = {
 		{'red-wire', 1},
 		{'green-wire', 1},
-		{'copper-wire', 1},
+		{'copper-cable', 1},
 		{'iron-stick', 1}
 	},
 	result = 'wire-bundle',
@@ -55,7 +56,7 @@ data:extend({
 	energy_required = 2,
 	ingredients = {
 		{'glass', 5},
-		{'copper-wire', 3}
+		{'copper-cable', 3}
 	},
 	result = 'led',
 	result_count = 1,

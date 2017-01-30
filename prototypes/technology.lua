@@ -1,7 +1,4 @@
-addTechnologyRecipe('logistics', 'underground-belt-hood')
-addTechnologyRecipe('logistics', 'splitter-mechanism')
-addTechnologyRecipe('logistics', 'fast-inserter-arm')
-addTechnologyRecipe('logistics', 'fast-inserter-platform')
+
 
 addTechnologyRecipe('logistics-2', 'fast-underground-belt-hood')
 addTechnologyRecipe('logistics-2', 'fast-splitter-mechanism')
@@ -22,8 +19,7 @@ addTechnologyRecipe('automation', 'long-armed-inserter-platform')
 addTechnologyRecipe('automation-2', 'assembling-machine-2-frame')
 addTechnologyRecipe('automation-3', 'assembling-machine-3-frame')
 
-addTechnologyRecipe('advanced-electronics', 'advanced-circuit-board')
-addTechnologyRecipe('advanced-electronics-2', 'processing-circuit-board')
+--circuit boards in recipe.circuits
 
 addTechnologyRecipe('electronics', 'filter-inserter-arm')
 addTechnologyRecipe('electronics', 'filter-inserter-platform')
@@ -60,7 +56,7 @@ addTechnologyRecipe('battery', 'battery-casing')
 
 addTechnologyRecipe('electric-energy-distribution-1', 'steel-rebar')
 addTechnologyRecipe('electric-energy-distribution-1', 'copper-contact')
-addTechnologyRecipe('electric-energy-accumulators', 'high-voltage-battery')
+addTechnologyRecipe('electric-energy-accumulators-1', 'high-voltage-battery')
 addTechnologyRecipe('solar-energy', 'photovoltaic-cell')
 
 addTechnologyRecipe('circuit-network', 'circuit-network-connector')

@@ -139,7 +139,7 @@ for index, force in pairs(game.forces) do
 		force.recipes['copper-contact'].enabled = true
 	end
 
-	if force.technologies['electric-energy-accumulators'].researched then
+	if force.technologies['electric-energy-accumulators-1'].researched then
 		force.recipes['high-voltage-battery'].enabled = true
 	end
 
