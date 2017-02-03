@@ -8,22 +8,24 @@ for index, force in pairs(game.forces) do
 	if force.technologies['logistics'].researched then
 		force.recipes['underground-belt-hood'].enabled = true
 		force.recipes['splitter-mechanism'].enabled = true
+		force.recipes['fast-inserter-arm'].enabled = true
+		force.recipes['fast-inserter-platform'].enabled = true
 	end
 
 	if force.technologies['logistics-2'].researched then
 		force.recipes['fast-belt-surface'].enabled = true
-		force.recipes['fast-transport-belt-to-ground-hood'].enabled = true
+		force.recipes['fast-underground-belt-hood'].enabled = true
 		force.recipes['fast-splitter-mechanism'].enabled = true
 		force.recipes['stack-inserter-arm'].enabled = true
 		force.recipes['stack-inserter-platform'].enabled = true
-		force.recipes['filter-stack-inserter-arm'].enabled = true
-		force.recipes['filter-stack-inserter-platform'].enabled = true
+		force.recipes['stack-filter-inserter-arm'].enabled = true
+		force.recipes['stack-filter-inserter-platform'].enabled = true
 	end
 
 	if force.technologies['logistics-3'].researched then
 		force.recipes['express-belt-surface'].enabled = true
 		force.recipes['express-splitter-mechanism'].enabled = true
-		force.recipes['express-transport-belt-to-ground-hood'].enabled = true
+		force.recipes['express-underground-belt-hood'].enabled = true
 	end
 
 	if force.technologies['automation'].researched then
@@ -51,14 +53,9 @@ for index, force in pairs(game.forces) do
 		force.recipes['long-armed-inserter-platform'].enabled = true
 	end
 
-	if force.technologies['logistics'].researched then
-		force.recipes['fast-inserter-arm'].enabled = true
-		force.recipes['fast-inserter-platform'].enabled = true
-	end
-
 	if force.technologies['electronics'].researched then
-		force.recipes['smart-inserter-arm'].enabled = true
-		force.recipes['smart-inserter-platform'].enabled = true
+		force.recipes['filter-inserter-arm'].enabled = true
+		force.recipes['filter-inserter-platform'].enabled = true
 	end
 
 	if force.technologies['military'].researched then
