@@ -1,5 +1,7 @@
 addTechnologyRecipe('logistics', 'underground-belt-hood')
 addTechnologyRecipe('logistics', 'splitter-mechanism')
+addTechnologyRecipe('logistics', 'fast-inserter-arm')
+addTechnologyRecipe('logistics', 'fast-inserter-platform')
 
 addTechnologyRecipe('logistics-2', 'fast-underground-belt-hood')
 addTechnologyRecipe('logistics-2', 'fast-splitter-mechanism')
