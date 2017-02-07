@@ -41,11 +41,11 @@ data.raw.recipe['assembling-machine-1'].ingredients = {
 }
 data.raw.recipe['assembling-machine-2'].ingredients = {
     {'assembling-machine-2-frame', 1},
-	{'assembling-machine-2', 1},
+    {'assembling-machine-1', 1},
     {'iron-gear-wheel', 5}
 }
 data.raw.recipe['assembling-machine-3'].ingredients = {
     {'assembling-machine-3-frame', 1},
-	{'assembling-machine-2', 1},
+    {'assembling-machine-2', 1},
     {'speed-module', 4}
 }
