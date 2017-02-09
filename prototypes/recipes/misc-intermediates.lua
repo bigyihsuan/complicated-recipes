@@ -50,7 +50,7 @@ data:extend({
 		{'high-carbon-iron-plate', 5}
 	},
 	category = 'smelting',
-	energy_required = 17.5,
+	energy_required = 5,
 	result = 'raw-steel',
 	result_count = 1,
 	enabled = false --steel processing
@@ -121,6 +121,17 @@ data:extend({
 	result = 'rail-tie',
 	result_count = 1,
 	enabled = false --railway
+},
+{
+	type = 'recipe',
+	name = 'stone-from-water',
+	ingredients = {
+		{'crushed-stone', 2},
+		{type = 'fluid', name = 'water', count = 1}
+	},
+	result = 'stone',
+	result_count = 10,
+	enabled = true --tech name here
 }
 })
 
@@ -173,4 +184,17 @@ data.raw.recipe['rail-chain-signal'].ingredients = {
 	{'led', 3},
 	{'electronic-circuit', 1},
 	{'iron-plate', 5}
+}
+data.raw.recipe['hazard-concrete'].ingredients = {
+	{'concrete', 10},
+	{'black-dye', 1},
+	{'yellow-dye', 1}
+}
+data.raw.recipe['iron-chest'].ingredients = {
+	{'wooden-chest', 1},
+	{'iron-plate', 8}
+}
+data.raw.recipe['steel-chest'].ingredients = {
+	{'iron-chest', 1},
+	{'steel-plate', 8}
 }

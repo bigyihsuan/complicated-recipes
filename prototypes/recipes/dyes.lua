@@ -37,22 +37,22 @@ data:extend({
 {
 	type = 'recipe',
 	name = 'green-dye',
-	ingredients = {{'yellow-dye', 1}, {'blue-dye', 1}},
+	ingredients = {{'yellow-dye', 10}, {'blue-dye', 10}},
 	result = 'green-dye',
-	result_count = 2
+	result_count = 20
 },
 {
 	type = 'recipe',
 	name = 'purple-dye',
-	ingredients = {{'blue-dye', 1}, {'red-dye', 1}},
+	ingredients = {{'blue-dye', 10}, {'red-dye', 10}},
 	result = 'purple-dye',
-	result_count = 2
+	result_count = 20
 },
 {
 	type = 'recipe',
 	name = 'orange-dye',
-	ingredients = {{'yellow-dye', 1}, {'red-dye', 1}},
+	ingredients = {{'yellow-dye', 10}, {'red-dye', 10}},
 	result = 'orange-dye',
-	result_count = 2
+	result_count = 20
 }
 })
