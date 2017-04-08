@@ -124,10 +124,11 @@ data:extend({
 },
 {
 	type = 'recipe',
+	category = 'crafting-with-fluid',
 	name = 'stone-from-water',
 	ingredients = {
-		{'crushed-stone', 2},
-		{type = 'fluid', name = 'water', count = 1}
+		{type = 'item', name = 'crushed-stone', amount = 2},
+		{type = 'fluid', name = 'water', amount = 1}
 	},
 	result = 'stone',
 	result_count = 10,

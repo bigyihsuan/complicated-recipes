@@ -1,6 +1,9 @@
 game.reload_script()
 
 for _, force in pairs(game.forces) do
+	force.reset_recipes()
+	force.reset_technologies()
+	
     for _, technology in pairs(force.technologies) do
         if technology.researched then
             for _, modifier in pairs(technology.effects) do

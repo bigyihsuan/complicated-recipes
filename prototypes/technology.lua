@@ -23,7 +23,32 @@ addTechnologyRecipe('automation', 'long-armed-inserter-platform')
 addTechnologyRecipe('automation-2', 'assembling-machine-2-frame')
 addTechnologyRecipe('automation-3', 'assembling-machine-3-frame')
 
---circuit boards in recipe.circuits
+addTechnologyRecipe('advanced-electronics', 'advanced-circuit-board')
+addTechnologyRecipe('advanced-electronics', 'advanced-circuit')
+addTechnologyRecipe('advanced-electronics-2', 'processing-circuit-board')
+addTechnologyRecipe('advanced-electronics-2', 'processing-unit')
+
+data.raw.technology['advanced-electronics'].prerequisites = {'electronics', 'circuit-network'}
+data.raw.technology['advanced-electronics'].effects = {
+	{
+        type = 'unlock-recipe',
+        recipe = 'advanced-circuit'
+    },
+	{
+        type = 'unlock-recipe',
+        recipe = 'advanced-circuit-board'
+    }
+}
+data.raw.technology['advanced-electronics-2'].effects = {
+	{
+        type = 'unlock-recipe',
+        recipe = 'processing-unit'
+    },
+	{
+        type = 'unlock-recipe',
+        recipe = 'processing-circuit-board'
+    }
+}
 
 addTechnologyRecipe('electronics', 'filter-inserter-arm')
 addTechnologyRecipe('electronics', 'filter-inserter-platform')
