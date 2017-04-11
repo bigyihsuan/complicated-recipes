@@ -133,6 +133,18 @@ data:extend({
 	result = 'stone',
 	result_count = 10,
 	enabled = true --tech name here
+},
+{
+	type = 'recipe',
+	category = 'crafting-with-fluid'
+	name = 'wood-from-water',
+	ingredients = {
+		{type = 'item', name = 'raw-wood', amount = 1},
+		{type = 'fluid', name = 'water', amount = 5}
+	},
+	result = 'raw-wood',
+	result_count = 2,
+	enabled = true --tech name here
 }
 })
 
