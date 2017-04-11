@@ -24,7 +24,7 @@ data:extend({
 	icon = '__complicated-recipes__/graphics/weapons/bullet.png',
 	subgroup = 'military',
 	inventory_order = 'b-a',
-	stack_size = 50
+	stack_size = 200
 },
 {
 	type = 'item',
