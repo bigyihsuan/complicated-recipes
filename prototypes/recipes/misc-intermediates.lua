@@ -136,7 +136,7 @@ data:extend({
 },
 {
 	type = 'recipe',
-	category = 'crafting-with-fluid'
+	category = 'crafting-with-fluid',
 	name = 'wood-from-water',
 	ingredients = {
 		{type = 'item', name = 'raw-wood', amount = 1},
