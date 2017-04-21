@@ -47,10 +47,10 @@ data:extend({
 	type = 'recipe',
 	name = 'raw-steel',
 	ingredients = {
-		{'high-carbon-iron-plate', 5}
+		{'high-carbon-iron-plate', 2}
 	},
 	category = 'smelting',
-	energy_required = 5,
+	energy_required = 1,
 	result = 'raw-steel',
 	result_count = 1,
 	enabled = false --steel processing
