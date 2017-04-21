@@ -5,7 +5,7 @@ data:extend({
 	name = 'iron-gear-peg',
 	icon = '__complicated-recipes__/graphics/intermediates/iron-gear-peg.png',
 	subgroup = 'intermediates',
-	order = 'a-a',
+	order = 'e-a',
 	stack_size = 50
 },
 {
@@ -14,7 +14,7 @@ data:extend({
 	name = 'iron-gear-rim',
 	icon = '__complicated-recipes__/graphics/intermediates/iron-gear-rim.png',
 	subgroup = 'intermediates',
-	order = 'a-b',
+	order = 'e-b',
 	stack_size = 50
 },
 {
@@ -22,8 +22,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'compressed-solid-fuel',
 	icon = '__complicated-recipes__/graphics/intermediates/compressed-solid-fuel.png',
-	subgroup = 'raw-resource',
-	order = 'c[compressed-solid-fuel]', --vanilla tabs
+	subgroup = 'intermediates',
+	order = 'e-c', --vanilla tabs
 	fuel_value = '250MJ',
 	stack_size = 50
 },
@@ -33,7 +33,7 @@ data:extend({
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/fluids/pipe-plate.png', --icon directory
 	subgroup = 'intermediates',
-	order = 'a-c',
+	order = 'e-d',
 	stack_size = 100
 },
 {
@@ -42,7 +42,7 @@ data:extend({
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/hcip.png', --icon directory
 	subgroup = 'intermediates',
-	order = 'b-a',
+	order = 'e-e',
 	stack_size = 100
 },
 {
@@ -51,7 +51,7 @@ data:extend({
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/raw-steel.png', --icon directory
 	subgroup = 'intermediates',
-	order = 'b-c',
+	order = 'e-f',
 	stack_size = 100
 },
 {
@@ -60,7 +60,7 @@ data:extend({
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/crushed-stone.png', --icon directory
 	subgroup = 'intermediates',
-	order = 'b-d',
+	order = 'e-g',
 	stack_size = 100
 },
 {
@@ -69,7 +69,7 @@ data:extend({
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/glass.png', --icon directory
 	subgroup = 'intermediates',
-	order = 'b-e',
+	order = 'e-h',
 	stack_size = 100
 },
 {

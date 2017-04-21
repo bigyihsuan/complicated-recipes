@@ -4,8 +4,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'red-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-red.png',
-	subgroup = 'dyes',
-	inventory_order = 'a[primary]-a',
+	subgroup = 'intermediates',
+	inventory_order = 'd[primary]-a',
 	stack_size = 100
 },
 {
@@ -13,8 +13,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'blue-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-blue.png',
-	subgroup = 'dyes',
-	inventory_order = 'a[primary]-b',
+	subgroup = 'intermediates',
+	inventory_order = 'd[primary]-b',
 	stack_size = 100
 },
 {
@@ -22,8 +22,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'yellow-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-yellow.png',
-	subgroup = 'dyes',
-	inventory_order = 'a[primary]-c',
+	subgroup = 'intermediates',
+	inventory_order = 'd[primary]-c',
 	stack_size = 100
 },
 {
@@ -31,8 +31,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'black-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-black.png',
-	subgroup = 'dyes',
-	inventory_order = 'a[primary]-d',
+	subgroup = 'intermediates',
+	inventory_order = 'd[primary]-d',
 	stack_size = 100
 },
 {
@@ -40,8 +40,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'white-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-white.png',
-	subgroup = 'dyes',
-	inventory_order = 'a[primary]-e',
+	subgroup = 'intermediates',
+	inventory_order = 'd[primary]-e',
 	stack_size = 100
 },
 {
@@ -49,8 +49,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'green-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-green.png',
-	subgroup = 'dyes',
-	inventory_order = 'b[secondary]-a',
+	subgroup = 'intermediates',
+	inventory_order = 'd[secondary]-a',
 	stack_size = 100
 },
 {
@@ -58,8 +58,8 @@ data:extend({
 	name = 'orange-dye',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-orange.png', --icon directory
-	subgroup = 'dyes',
-	inventory_order = 'b[secondary]-b',
+	subgroup = 'intermediates',
+	inventory_order = 'd[secondary]-b',
 	stack_size = 100
 },
 {
@@ -67,8 +67,8 @@ data:extend({
 	flags= { "goes-to-main-inventory" },
 	name = 'purple-dye',
 	icon = '__complicated-recipes__/graphics/intermediates/dye/dye-purple.png',
-	subgroup = 'dyes',
-	inventory_order = 'b[secondary]-c',
+	subgroup = 'intermediates',
+	inventory_order = 'd[secondary]-c',
 	stack_size = 100
 }
 })

@@ -4,7 +4,7 @@ data:extend({
 	name = 'speed-module-casing',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/modules/speed-module-case.png', --icon directory
-	subgroup = 'modules',
+	subgroup = 'intermediates',
 	stack_size = 50
 },
 {
@@ -12,7 +12,7 @@ data:extend({
 	name = 'effectivity-module-casing',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/modules/effectivity-module-case.png', --icon directory
-	subgroup = 'modules',
+	subgroup = 'intermediates',
 	stack_size = 50
 },
 {
@@ -20,7 +20,7 @@ data:extend({
 	name = 'productivity-module-casing',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/modules/productivity-module-case.png', --icon directory
-	subgroup = 'modules',
+	subgroup = 'intermediates',
 	stack_size = 50
 },
 {
@@ -28,7 +28,7 @@ data:extend({
 	name = 'speed-augment',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/modules/augment-speed.png', --icon directory
-	subgroup = 'modules',
+	subgroup = 'intermediates',
 	stack_size = 100
 },
 {
@@ -36,7 +36,7 @@ data:extend({
 	name = 'effectivity-augment',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/modules/augment-effectivity.png', --icon directory
-	subgroup = 'modules',
+	subgroup = 'intermediates',
 	stack_size = 100
 },
 {
@@ -44,7 +44,7 @@ data:extend({
 	name = 'productivity-augment',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/intermediates/modules/augment-productivity.png', --icon directory
-	subgroup = 'modules',
+	subgroup = 'intermediates',
 	stack_size = 100
 }
 })

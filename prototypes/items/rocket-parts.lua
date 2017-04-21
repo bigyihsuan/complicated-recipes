@@ -4,8 +4,8 @@ data:extend({
 	name = 'low-density-structure-frame',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/rocket-parts/lds.png', --icon directory
-	subgroup = 'rocket-parts',
-	order = 'a',
+	subgroup = 'intermediates',
+	order = 'g-a',
 	stack_size = 10
 },
 {
@@ -13,8 +13,8 @@ data:extend({
 	name = 'rocket-control-unit-case',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/rocket-parts/rcu-case.png', --icon directory
-	subgroup = 'rocket-parts',
-	order = 'b',
+	subgroup = 'intermediates',
+	order = 'g-b',
 	stack_size = 10
 },
 {
@@ -22,8 +22,8 @@ data:extend({
 	name = 'rocket-control-unit-cpu',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/rocket-parts/rcu-cpu.png', --icon directory
-	subgroup = 'rocket-parts',
-	order = 'c',
+	subgroup = 'intermediates',
+	order = 'g-c',
 	stack_size = 10
 },
 {
@@ -31,8 +31,8 @@ data:extend({
 	name = 'satellite-frame',
 	flags = {'goes-to-main-inventory'},
 	icon = '__complicated-recipes__/graphics/rocket-parts/sat.png', --icon directory
-	subgroup = 'rocket-parts',
-	order = 'd',
+	subgroup = 'intermediates',
+	order = 'g-d',
 	stack_size = 10
 }
 })
