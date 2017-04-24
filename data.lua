@@ -26,8 +26,3 @@ require('prototypes.item-groups')
 
 require('utility.utility')
 require('prototypes.technology')
-
-if data.raw.recipe['loader'] then
-	require('prototypes.items.intermediates.loader')
-	require('prototypes.recipes.intermediates.loader')
-end

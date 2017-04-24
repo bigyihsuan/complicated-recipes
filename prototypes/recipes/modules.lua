@@ -92,8 +92,7 @@ data.raw.recipe['speed-module-2'].ingredients = {
 data.raw.recipe['speed-module-3'].ingredients = {
 	{'speed-module-2', 4},
 	{'speed-module-casing', 1},
-	{'processing-unit', 5},
-	{'alien-artifact', 1}
+	{'processing-unit', 5}
 }
 
 data.raw.recipe['productivity-module'].ingredients = {
@@ -109,8 +108,7 @@ data.raw.recipe['productivity-module-2'].ingredients = {
 data.raw.recipe['productivity-module-3'].ingredients = {
 	{'productivity-module-2', 4},
 	{'productivity-module-casing', 1},
-	{'processing-unit', 5},
-	{'alien-artifact', 1}
+	{'processing-unit', 5}
 }
 
 data.raw.recipe['effectivity-module'].ingredients = {
@@ -126,6 +124,5 @@ data.raw.recipe['effectivity-module-2'].ingredients = {
 data.raw.recipe['effectivity-module-3'].ingredients = {
 	{'effectivity-module-2', 4},
 	{'effectivity-module-casing', 1},
-	{'processing-unit', 5},
-	{'alien-artifact', 1}
+	{'processing-unit', 5}
 }

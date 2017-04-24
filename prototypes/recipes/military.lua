@@ -291,14 +291,14 @@ data.raw.recipe['laser-turret'].ingredients = {
 	{'laser-emitter', 5},
 	{'electronic-circuit', 20}
 }
-data.raw.recipe['flame-thrower'].ingredients = {
+data.raw.recipe['flamethrower'].ingredients = {
 	{'gun-barrel', 5},
 	{'steel-plate', 5},
 	{'iron-gear-wheel', 10},
 	{'pipe', 10}
 }
 data.raw.recipe['flamethrower-turret'].ingredients = {
-	{'flame-thrower', 1},
+	{'flamethrower', 1},
 	{'gun-mount', 1},
 	{'turret-base', 1},
 	{'engine-unit', 5}
