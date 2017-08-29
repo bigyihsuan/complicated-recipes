@@ -25,6 +25,7 @@ data:extend({
 	subgroup = 'intermediates',
 	order = 'e-c', --vanilla tabs
 	fuel_value = '250MJ',
+	fuel_category = 'chemical',
 	stack_size = 50
 },
 {
